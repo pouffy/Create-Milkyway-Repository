@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "milkyway_core:block/capybara_memorial"
+    },
+    "facing=east": {
+      "model": "milkyway_core:block/capybara_memorial",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "milkyway_core:block/capybara_memorial",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "milkyway_core:block/capybara_memorial",
+      "y": 270
+    }
+  }
+}

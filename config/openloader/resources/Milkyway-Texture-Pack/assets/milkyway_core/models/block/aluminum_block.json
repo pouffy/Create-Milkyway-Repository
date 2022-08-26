@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "milkyway_core:blocks/bauxite_ore_block",
+    "particle": "milkyway_core:blocks/bauxite_ore_block"
+  }
+}

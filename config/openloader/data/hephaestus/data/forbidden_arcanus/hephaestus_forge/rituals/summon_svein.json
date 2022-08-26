@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:end_crystal",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:eternal_stella",
+            "slot": 1
+        },
+        {
+            "item": "create_stuff_additions:heap_of_experience",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:end_crystal",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:netherite_sword",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "milkyway_bosses:powered_summoning_crystal",
+    "essences": {
+        "aureal": 200,
+        "blood": 2000,
+        "souls": 1,
+        "experience": 200
+    },
+    "result": {
+        "item": "milkyway_bosses:svein_summoner",
+        "count": 1
+    }
+}

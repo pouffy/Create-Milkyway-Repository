@@ -1,0 +1,8 @@
+[15:00:15.680][INFO]: Parsing recipe json: custommachinery:magic_spawner/zombie
+[15:00:15.681][INFO]: Successfully read recipe json: custommachinery:magic_spawner/zombie
+[15:00:17.791][INFO]: Reading Custom Machinery Machines...
+[15:00:17.792][INFO]: Parsing machine json: custommachinery:testmachine in datapack: custommachinery
+[15:00:17.793][INFO]: Successfully parsed machine json: custommachinery:testmachine
+[15:00:17.793][INFO]: Finished creating custom machines.
+[15:00:17.793][INFO]: Reading Custom Machinery Upgrades...
+[15:00:17.793][INFO]: Finished creating custom machine upgrades.

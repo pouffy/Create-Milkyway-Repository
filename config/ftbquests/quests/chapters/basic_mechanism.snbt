@@ -1,0 +1,324 @@
+{
+	id: "4769C6CFD5894420"
+	group: "4C843E58DB84C35F"
+	order_index: 0
+	filename: "basic_mechanism"
+	title: "Basic Mechanism"
+	icon: "milkyway_core:basic_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_basic_mechanism"
+			x: -2.5d
+			y: -1.5d
+			description: ["While the mechanism can be crafted in the inventory, it is recommended you set up a sequenced assembly to automate their production"]
+			dependencies: ["78562C4AFB584F74"]
+			hide: true
+			id: "0D624C392623F1A4"
+			tasks: [{
+				id: "4D8826174EBDE8C8"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			icon: "create:andesite_alloy"
+			x: -2.5d
+			y: 2.0d
+			dependencies: [
+				"6E651CD3F39EC70A"
+				"48BFABCBA169746C"
+			]
+			id: "3267A340A6811C05"
+			tasks: [
+				{
+					id: "33E8884326E6D282"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "6AFD222E4DB2C92C"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:andesite"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "Seared Melter Recommended"
+			description: [
+				"Automating andesite alloy will require the automation of andesite (obviously). Lucky for you, it can be obtained by pouring molten quartz over some cobblestone! Quartz can be later automated for use here."
+				"Once possible, a smeltery can melt quartz faster."
+			]
+			dependencies: ["0D624C392623F1A4"]
+			id: "6E651CD3F39EC70A"
+			tasks: [
+				{
+					id: "5E190A88CC297090"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "417098464B5CA54E"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "Logs"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Tree Farm Recommended"
+			description: [
+				"You're going to need patterns as a base for the mechanism so a tree farm is needed!"
+				"Patterns can be pressed from any plank so you don't have to manually craft them."
+			]
+			dependencies: ["0D624C392623F1A4"]
+			id: "5DDC6E23E904182F"
+			tasks: [
+				{
+					id: "285341728C9CD242"
+					type: "item"
+					title: "Logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+				}
+				{
+					id: "11EC5FFBFAAD97D7"
+					type: "checkmark"
+					title: "Automated"
+					icon: "minecraft:oak_log"
+				}
+			]
+		}
+		{
+			title: "Machines and Components"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Required For Automation"
+			description: ["This is a very useful machine for automating the production of the basic mechanism."]
+			dependencies: ["78562C4AFB584F74"]
+			id: "34E642EEC5C4354E"
+			tasks: [
+				{
+					id: "1A4072EE8967C71A"
+					type: "item"
+					item: "create:deployer"
+					count: 2L
+				}
+				{
+					id: "407C3A6F79DDAED2"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					count: 3L
+				}
+				{
+					id: "793835C0580A503D"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "47F2BAE99CF22EA9"
+					type: "item"
+					item: "tconstruct:seared_basin"
+					count: 2L
+				}
+				{
+					id: "7D072ED7B021BF53"
+					type: "item"
+					item: "createaddition:rolling_mill"
+				}
+				{
+					id: "11EEDD42A47B4FE9"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+			]
+			rewards: [{
+				id: "3E8069F6DA59F345"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+				count: 16
+			}]
+		}
+		{
+			title: "Molten Zinc"
+			icon: "tconstruct:molten_zinc_bucket"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "Good for alloying"
+			description: ["Try pouring some of your spare molten zinc over some andesite to make andesite alloy."]
+			dependencies: ["78562C4AFB584F74"]
+			id: "48BFABCBA169746C"
+			tasks: [
+				{
+					id: "79A8DC221307C00E"
+					type: "item"
+					item: "tconstruct:molten_zinc_bucket"
+				}
+				{
+					id: "43F2985E9A1E25C4"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "tconstruct:pattern"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["2F698EB062B37BCE"]
+			id: "4B9BCAF4E8463A43"
+			tasks: [
+				{
+					id: "2F50593D0DB55B41"
+					type: "item"
+					item: "tconstruct:pattern"
+				}
+				{
+					id: "182B0110ED8E18D2"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			title: "Planks"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "Time To Bonk"
+			description: ["Now all that's left is to press the planks into a blank pattern, This will serve as the base for your mechanism."]
+			dependencies: ["5DDC6E23E904182F"]
+			id: "2F698EB062B37BCE"
+			tasks: [
+				{
+					id: "4131C6F195A5D0BA"
+					type: "item"
+					title: "Any #minecraft:planks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+				}
+				{
+					id: "687EF639E1068AA0"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "createaddition:iron_wire"
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["5A787F37BC88E5C5"]
+			id: "21D6BCE8ABDD8A72"
+			tasks: [
+				{
+					id: "17979FC07C150B02"
+					type: "item"
+					item: "createaddition:iron_wire"
+				}
+				{
+					id: "0535B124E70B7A54"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:iron_ingot"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "The Most Common Metal Ingredient"
+			description: ["To make iron wire you'll need to press the iron into sheets."]
+			dependencies: ["0D624C392623F1A4"]
+			id: "0F298942A13AA449"
+			tasks: [
+				{
+					id: "2494FA0C17B0F86A"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "4EB2A1A18531945A"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:iron_sheet"
+			x: -3.5d
+			y: 0.5d
+			subtitle: "Flat Metal"
+			description: [
+				"Now, you'll need a rolling mill."
+				"Just put the iron sheed inside the rolling mill and watch as it is transformed into wires!"
+			]
+			dependencies: ["0F298942A13AA449"]
+			id: "5A787F37BC88E5C5"
+			tasks: [
+				{
+					id: "56E3E69B59989439"
+					type: "item"
+					item: "create:iron_sheet"
+				}
+				{
+					id: "08A232CBA28036BB"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			subtitle: "Fully Automated!"
+			description: ["Congratulations! You automated your first mechanism! Don't worry though, there's plenty more left to automate."]
+			dependencies: [
+				"21D6BCE8ABDD8A72"
+				"3267A340A6811C05"
+				"4B9BCAF4E8463A43"
+			]
+			id: "77DF95CD62E57A6C"
+			tasks: [{
+				id: "050D310755FE9B59"
+				type: "item"
+				item: "milkyway_core:basic_mechanism"
+			}]
+			rewards: [
+				{
+					id: "5F57C29557E43992"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 16
+				}
+				{
+					id: "00F1C72360528A50"
+					type: "item"
+					item: "milkyway_core:basic_mechanism"
+					count: 4
+				}
+				{
+					id: "47C2539B2F03EED9"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 18
+				}
+			]
+		}
+	]
+}

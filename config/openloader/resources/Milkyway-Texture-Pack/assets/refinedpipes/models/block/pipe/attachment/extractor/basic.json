@@ -1,0 +1,6 @@
+{
+  "parent": "refinedpipes:block/pipe/attachment/attachment",
+  "textures": {
+    "1": "refinedpipes:blocks/pipe/attachment/extractor/basic"
+  }
+}

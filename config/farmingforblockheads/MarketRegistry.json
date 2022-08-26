@@ -1,0 +1,71 @@
+{
+  "customCategories": {
+    "majek": {
+      "name": "majek",
+      "icon": {
+        "item": "forbidden_arcanus:eternal_stella"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "forbidden_arcanus:edelwood_oil"
+      },
+      "payment": {
+        "item": "thermal:bronze_coin"
+      },
+      "category": "majek"
+    },
+    {
+      "output": {
+        "item": "forbidden_arcanus:arcane_bone_meal"
+      },
+      "payment": {
+        "item": "thermal:bronze_coin",
+        "count": 2
+      },
+      "category": "majek"
+    },
+    {
+      "output": {
+        "item": "forbidden_arcanus:obsidian_with_iron"
+      },
+      "payment": {
+        "item": "thermal:bronze_coin",
+        "count": 4
+      },
+      "category": "majek"
+    },
+    {
+      "output": {
+        "item": "twilightforest:liveroot"
+      },
+      "payment": {
+        "item": "thermal:bronze_coin",
+        "count": 8
+      },
+      "category": "majek"
+    },
+    {
+      "output": {
+        "item": "forbidden_arcanus:spawner_scrap"
+      },
+      "payment": {
+        "item": "thermal:bronze_coin",
+        "count": 10
+      },
+      "category": "majek"
+    },
+    {
+      "output": {
+        "item": "thermal:electrum_coin"
+      },
+      "payment": {
+        "item": "kubejs:kermitamine",
+        "count": 1
+      },
+      "category": "majek"
+    }
+  ]
+}

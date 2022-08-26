@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "tconstruct:ichor_slime_ball",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:eternal_stella",
+            "slot": 1
+        },
+        {
+            "item": "createchromaticreturn:shadow_steel",
+            "slot": 2
+        },
+        {
+            "item": "thermal:rosin",
+            "slot": 3
+        },
+        {
+            "item": "refinedstorage:silicon",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "milkyway_bosses:powered_summoning_crystal",
+    "essences": {
+        "aureal": 200,
+        "blood": 2000,
+        "souls": 1,
+        "experience": 200
+    },
+    "result": {
+        "item": "milkyway_bosses:raconsummoner",
+        "count": 1
+    }
+}

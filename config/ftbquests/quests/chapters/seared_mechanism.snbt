@@ -1,0 +1,269 @@
+{
+	id: "752CEC6D6722BB9C"
+	group: "4C843E58DB84C35F"
+	order_index: 2
+	filename: "seared_mechanism"
+	title: "Seared Mechanism"
+	icon: "milkyway_core:seared_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_seared_mechanism"
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["542FACEDCBC70D47"]
+			hide: true
+			id: "2D54E5A61055C161"
+			tasks: [{
+				id: "1942F1A5EC711CF4"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: [
+				"55D35FA45D06C30B"
+				"4DF7B08AC3B1EF7B"
+				"007A1ABF80DE06BE"
+			]
+			id: "1E573191B8D8991B"
+			tasks: [{
+				id: "172D42E91DFECB04"
+				type: "item"
+				item: "milkyway_core:seared_mechanism"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["785F11D67B400559"]
+			id: "007A1ABF80DE06BE"
+			tasks: [{
+				id: "21D2D6535535B708"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["3E7FB0CCDAEC245D"]
+			id: "4DF7B08AC3B1EF7B"
+			tasks: [{
+				id: "02F9BF42160619F7"
+				type: "item"
+				item: "thermal:copper_gear"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["32BCB9F1A5695D9D"]
+			id: "55D35FA45D06C30B"
+			tasks: [{
+				id: "49265698AF07F1B8"
+				type: "item"
+				item: "createbb:match"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "I am Grout"
+			description: ["You could use a furnace to cook this into bricks but that would need fuel, and we don't have time tou automate that too now do we? Try blasting it with an encased fan and lava."]
+			dependencies: ["0A569830538BA5B6"]
+			id: "785F11D67B400559"
+			tasks: [{
+				id: "5F7CD661E978FE2C"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			title: "Grout's Family"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Together, We Are Grout"
+			description: [
+				"Funnily enough, all these items come from cobblestone so they can be easily automated with a simple cobblestone generator and some crushing wheels!"
+				"Gravel can be crushed into sand with a 5% chance of clay balls! how convinient."
+				"You could also wash sand to have a higher chance of clay (25%). especially if you don't want to waste resources on a few pairs of crushing wheels"
+			]
+			dependencies: ["2D54E5A61055C161"]
+			id: "0A569830538BA5B6"
+			tasks: [
+				{
+					id: "213B8279B52697CC"
+					type: "item"
+					item: "minecraft:clay_ball"
+				}
+				{
+					id: "13E1AF3D35896A48"
+					type: "item"
+					item: "minecraft:sand"
+				}
+				{
+					id: "58594C8EA46F7193"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Just like the gold gear"
+			description: ["You can automate the copper gear the same way you automated the gold one! A casting basin and your trusty Gear Cast!"]
+			dependencies: ["2D54E5A61055C161"]
+			id: "3E7FB0CCDAEC245D"
+			tasks: [{
+				id: "545997AF6F52F71F"
+				type: "checkmark"
+				title: "Gear Casting"
+				icon: "tconstruct:gear_cast"
+			}]
+		}
+		{
+			title: "Red Phosphorus on a stick"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "Tasty"
+			description: ["Red phosphorus is made by mixing white phosphorus over a Blaze Burner. It can be used to make matches. It has nothing to do with any shady side buisinesses."]
+			dependencies: ["22AFA49B8A8097D8"]
+			id: "32BCB9F1A5695D9D"
+			tasks: [
+				{
+					id: "60E4816B13810340"
+					type: "item"
+					item: "createbb:red_phosphorus"
+				}
+				{
+					id: "2FC76521BF7E4772"
+					type: "item"
+					item: "minecraft:stick"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Crushed Limestone? Who could've thought!"
+			description: ["Crushing any decorational limestone variants seems to produse White phosphorus."]
+			dependencies: ["068E5E2E29099C9F"]
+			id: "22AFA49B8A8097D8"
+			tasks: [{
+				id: "667A1E5EF1CE41F7"
+				type: "item"
+				item: "createbb:white_phosphorus"
+			}]
+		}
+		{
+			title: "Decorational Limestone"
+			x: 1.0d
+			y: 0.5d
+			subtitle: "Looks good but not for decoration"
+			description: ["Looks nice as a wall.... But you're gonna need to crush it!"]
+			dependencies: ["186DB2341D0C95AB"]
+			id: "068E5E2E29099C9F"
+			tasks: [{
+				id: "04E85407890BFDD6"
+				type: "item"
+				title: "Any #create:stone_types/limestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:stone_types/limestone"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Did You Learn Geography?"
+			description: ["If you learned geography, you'd know that limestone is a sedimentary rock. Meaning it is made of animal carcasses and ocean waste. Luckily you can make your own homemade limestone with your blaze burner! Just dump some bonemeal, clay and lava in that basin. Compact it and viola! your very own homemade limestone."]
+			dependencies: ["2D54E5A61055C161"]
+			id: "186DB2341D0C95AB"
+			tasks: [{
+				id: "3465606582FC747C"
+				type: "item"
+				item: "create:limestone"
+			}]
+		}
+		{
+			title: "Machines and Components"
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["542FACEDCBC70D47"]
+			hide: true
+			id: "17F41D7D59CC0286"
+			tasks: [
+				{
+					id: "3E36739277826671"
+					type: "item"
+					item: "create:deployer"
+					count: 3L
+				}
+				{
+					id: "6705577C3F4435D9"
+					type: "item"
+					item: "create:mechanical_mixer"
+					count: 2L
+				}
+				{
+					id: "761887EE0A2CC344"
+					type: "item"
+					item: "create:mechanical_press"
+					count: 2L
+				}
+				{
+					id: "197361661A8B53FC"
+					type: "item"
+					item: "create:basin"
+					count: 2L
+				}
+				{
+					id: "05534240FE61CC0D"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "4A16024F21DE0CC2"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "59EF318CF40F4111"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "121FF6490635BC67"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 2L
+				}
+				{
+					id: "6E06B4D199CC1D43"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 6L
+				}
+				{
+					id: "131B42B4D1CBD475"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+				{
+					id: "1D66587FE2F4676C"
+					type: "item"
+					item: "tconstruct:gear_cast"
+				}
+			]
+		}
+	]
+}

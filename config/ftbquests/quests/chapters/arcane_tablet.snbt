@@ -1,0 +1,627 @@
+{
+	id: "0C95ADE57F56832A"
+	group: "2D12C7D291D1053B"
+	order_index: 1
+	filename: "arcane_tablet"
+	title: "Runes, Tablets and Alchemy"
+	icon: "kubejs:blank_tablet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Starting with a blank slate"
+			description: ["Blank tablets will be a key part in magic. Pressing dark runes creates a blank tablet. These can be later infused with other magical items to create powerful tablets that can maipulate matter."]
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "0F99809A2C7C4386"
+			tasks: [{
+				id: "78130493F7B26520"
+				type: "item"
+				item: "kubejs:blank_tablet"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Magical dust"
+			description: ["While not looking like much, amethyst dust can be heated and mixed into a crushed powder that flows like a liquid. It's magical properties can energize the tablets for infusion!"]
+			dependencies: [
+				"5C6FC986CE3B254A"
+				"34F5720728D256F7"
+			]
+			hide: true
+			id: "477D12D62ABFC0B9"
+			tasks: [{
+				id: "27F778825CF6FD42"
+				type: "item"
+				item: "amethysttoolsmod:amethyst_dust"
+				count: 4L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			subtitle: "Matter conversion"
+			description: ["The arcane tablet is an astounding discovery! It can be used to transform minerals into different minerals."]
+			dependencies: [
+				"477D12D62ABFC0B9"
+				"7A293D69F943AEDD"
+			]
+			id: "1F43A1D82994290B"
+			tasks: [{
+				id: "5EB5EA90730BF5AD"
+				type: "item"
+				item: "kubejs:arcane_tablet"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			subtitle: "Better Brewing"
+			description: [
+				"This tablet can manipulate potions and fluids."
+				"catalysts can work with potions to alter the output, reversing the effects."
+			]
+			dependencies: [
+				"477D12D62ABFC0B9"
+				"019D4E6AB573C1A9"
+			]
+			id: "206F12DE78CE65E9"
+			tasks: [{
+				id: "5BFB57C0C0B6CB00"
+				type: "item"
+				item: "kubejs:alchemic_tablet"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "Trust me, I have experience"
+			description: [
+				"Pouring experience over a blank tablet results in a new type of tablet called an experienced tablet."
+				"This will be the base for the alchemic tablet."
+			]
+			dependencies: ["4691648C7C380BF8"]
+			id: "019D4E6AB573C1A9"
+			tasks: [{
+				id: "1F80060519003A9F"
+				type: "item"
+				item: "kubejs:experienced_tablet"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "Runes on runes"
+			description: ["Deploying a rune over a blank tablet creates a runic tablet. This will be used for an arcane tablet."]
+			dependencies: ["0E6BC5CB861101A2"]
+			id: "7A293D69F943AEDD"
+			tasks: [{
+				id: "565877D168C2602C"
+				type: "item"
+				item: "kubejs:runic_tablet"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Mining trip?"
+			description: [
+				"Runes can be excavated from the deep caves."
+				"optionally, they can be automated from mixing diamond and emerald dust with some experience."
+			]
+			dependencies: ["0F99809A2C7C4386"]
+			id: "0E6BC5CB861101A2"
+			tasks: [{
+				id: "1EDD2B43F49C2F30"
+				type: "item"
+				item: "forbidden_arcanus:rune"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Drain me"
+			description: ["Experience nuggets are found within crushed ores. Draining them reduces them to an empty shell but they release some liquified experience."]
+			dependencies: ["0F99809A2C7C4386"]
+			id: "4691648C7C380BF8"
+			tasks: [{
+				id: "35A26E155594480F"
+				type: "item"
+				item: "create:experience_nugget"
+			}]
+		}
+		{
+			title: "Pure"
+			x: 4.0d
+			y: 4.5d
+			subtitle: "Potion Purification"
+			description: ["Arcane crystal dust purifies negative potions, for example it can convert a poison potion into a regeneration potion."]
+			dependencies: ["206F12DE78CE65E9"]
+			id: "3B4E435BAAAF520A"
+			tasks: [{
+				id: "5F7FDA6015514A5B"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+		}
+		{
+			title: "Darkness"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "Corruption"
+			description: ["Corrupti dust corrupts potions, turning them into their opposite. For example, a regeneration potion would become a poison potion."]
+			dependencies: ["206F12DE78CE65E9"]
+			id: "527DA47040DC9968"
+			tasks: [{
+				id: "65C05F1F7B5B51AC"
+				type: "item"
+				item: "forbidden_arcanus:corrupti_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			subtitle: "Growth spurt"
+			description: [
+				"Amethyst clumps have a chance of forming when an amethyst is boosted with basalz powder."
+				"Crush it in some crushing wheels and it has a chance to break into a dust with teleportation abilities."
+			]
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "5C6FC986CE3B254A"
+			tasks: [{
+				id: "04DBA7295204BEE2"
+				type: "item"
+				item: "kubejs:amethyst_clump"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			subtitle: "Strange properties"
+			description: ["On its own, this is pretty much useless. Perhaps you should try combining it with some obsidian crystals."]
+			dependencies: ["5C6FC986CE3B254A"]
+			id: "549DE1778E672835"
+			tasks: [{
+				id: "0FE2545A62A82DE6"
+				type: "item"
+				item: "waystones:warp_dust"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			subtitle: "Teleportation?"
+			description: ["I believe obsidian holds the ability to teleport long distances. Perhaps combining some crushed obsidian with an easy to manipulate material will enable fast and easy teleportation over long distances."]
+			dependencies: ["4DBA071208C65338"]
+			id: "5A1BD339AA170CB4"
+			tasks: [{
+				id: "1D2FE475377F4E8B"
+				type: "item"
+				item: "milkyway_core:obsidian_quartz"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			subtitle: "Perfect Transport "
+			description: ["Combining the warp dust and obsidian created an energized alloy. "]
+			dependencies: [
+				"5A1BD339AA170CB4"
+				"56283410AFC119C9"
+				"549DE1778E672835"
+			]
+			id: "6FEABEC4643F2C15"
+			tasks: [{
+				id: "378B5D99250C0E2E"
+				type: "item"
+				item: "milkyway_core:radiant_obsidian"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			subtitle: "Energiser"
+			description: ["This ingot should help energise the obsidian and prepare it for teleportation!"]
+			dependencies: ["3AA03CE974E1A155"]
+			id: "56283410AFC119C9"
+			tasks: [{
+				id: "70F120F1888FF5D2"
+				type: "item"
+				item: "milkyway_core:polished_glowstone_quartz"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "4DBA071208C65338"
+			tasks: [{
+				id: "01E9556A80E250D2"
+				type: "item"
+				item: "create:powdered_obsidian"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			dependencies: ["145C38EA778BF062"]
+			id: "70E8404BB4989070"
+			tasks: [{
+				id: "277A1260A64F69D7"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.0d
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "786D643AFB09A10B"
+			tasks: [{
+				id: "0E1CFD7FF860D1DA"
+				type: "item"
+				item: "tconstruct:molten_ender_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			dependencies: [
+				"6FEABEC4643F2C15"
+				"70E8404BB4989070"
+				"786D643AFB09A10B"
+			]
+			id: "6559E9A107DC05D2"
+			tasks: [{
+				id: "2D98D5BCB84E5CE6"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.0d
+			subtitle: "Masterful alchemy"
+			description: ["The pure lens tablet is a much more powerful tablet with the ability to manipulate water and gemstones!"]
+			dependencies: [
+				"50D0A6A8F72BF441"
+				"51C2ADCDC00F46E4"
+				"45F0D1CB47D5D4BD"
+			]
+			id: "145C38EA778BF062"
+			tasks: [{
+				id: "16B43A7F03863503"
+				type: "item"
+				item: "kubejs:pure_lens_tablet"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			subtitle: "Shattered and lost"
+			description: ["Shattering that dark tablet revealed another tablet made of pure arcane gold! Maybe it can hold more power..."]
+			dependencies: ["59DA9B5E80B1A1B1"]
+			id: "08930E11A093A703"
+			tasks: [{
+				id: "52F47A9A11E2B1E8"
+				type: "item"
+				item: "kubejs:pure_tablet"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "definitely not an empty shell"
+			description: ["You feel energy coming from inside the tablet. You must get inside and figure out what it is!"]
+			dependencies: ["0F99809A2C7C4386"]
+			id: "59DA9B5E80B1A1B1"
+			tasks: [{
+				id: "52BA5BCFD0AFFD67"
+				type: "item"
+				item: "kubejs:dark_tablet"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "3AA03CE974E1A155"
+			tasks: [{
+				id: "5A079DA4C37A303C"
+				type: "item"
+				item: "milkyway_core:glowing_quartz"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			subtitle: "Purely decorational"
+			description: ["Luminous casing is a decorational block... THAT GLOWS!!!"]
+			dependencies: ["56283410AFC119C9"]
+			id: "2774417D401F7E29"
+			tasks: [{
+				id: "76A2DC3A5C7E6ABA"
+				type: "item"
+				item: "milkyway_core:luminous_casing"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			subtitle: "Long Distance Transport"
+			description: ["Waystones allow for long distance transport between others you've visited. Useful if you have multiple factories in different locations."]
+			dependencies: ["6559E9A107DC05D2"]
+			id: "3CA9CFA282C92867"
+			tasks: [{
+				id: "7BF236C0A41F0F4B"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			title: "Sharestone"
+			x: 1.0d
+			y: 14.5d
+			subtitle: "Colour coded transport"
+			description: ["Sharestones allow teleportation between any others of that same colour."]
+			dependencies: ["6559E9A107DC05D2"]
+			id: "4852CB18754EB8B5"
+			tasks: [{
+				id: "3F61697FBFA265D9"
+				type: "item"
+				title: "Sharestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "waystones:sharestone"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 14.5d
+			subtitle: "Waystone Hub"
+			description: ["While they cannot be teleported to, they allow quick access to other waystones you've discovered!"]
+			dependencies: ["6559E9A107DC05D2"]
+			id: "0FF38DC35A456FC5"
+			tasks: [{
+				id: "497A6E05E1760D77"
+				type: "item"
+				item: "waystones:portstone"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["1F43A1D82994290B"]
+			id: "3D78C8CE217E530D"
+			tasks: [{
+				id: "41C1772085A70D50"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "Just a spoonful of mundabitr helps the forge start up!"
+			dependencies: ["3D78C8CE217E530D"]
+			id: "46EAFCD187BCA1E6"
+			tasks: [{
+				id: "6D481492AD3F64E5"
+				type: "item"
+				item: "forbidden_arcanus:hephaestus_forge"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			subtitle: "Hephaestus made these"
+			description: ["Using the hephaestus forge, you can forge enchanted books and perform rituals creating amazing magical items!"]
+			dependencies: ["46EAFCD187BCA1E6"]
+			id: "6187D4BE51EB2112"
+			tasks: [{
+				id: "08A35AC6744D364B"
+				type: "checkmark"
+				title: "Forge Books"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			icon: "kubejs:soul"
+			x: -5.5d
+			y: -0.5d
+			subtitle: "Please use this instead of the wiki"
+			description: ["Yes, I spent a day of my life building a ponder sequence for the hephaestus forge. Do I need help? Probably..."]
+			dependencies: ["3D78C8CE217E530D"]
+			optional: true
+			id: "72BC70677B6C875E"
+			tasks: [{
+				id: "00C433CE35E674DD"
+				type: "checkmark"
+				title: "Ponder Forge"
+			}]
+			rewards: [{
+				id: "124242BD2F4C2AEA"
+				type: "command"
+				title: "Hephaestus Ponder"
+				icon: "forbidden_arcanus:mundabitur_dust"
+				command: "/create ponder forbidden_arcanus:hephaestus_forge"
+				player_command: false
+			}]
+		}
+		{
+			title: "Summoning Crystals"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Summoning Crystals are forged with magic."
+			description: ["Combining a powered summoning crystal with a random assortment of items transforms it into a crystal with the power to summon minibosses each with their own drop."]
+			dependencies: ["46EAFCD187BCA1E6"]
+			id: "265CC9BAD240E19B"
+			tasks: [{
+				id: "026AA88F4BD49FEE"
+				type: "item"
+				title: "Any #forge:items/summoningcrystals"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:items/summoningcrystals"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			subtitle: "Powerup sequence initiated"
+			description: ["Combining all crystals will create the one and only............... POUFFY!!!"]
+			dependencies: ["265CC9BAD240E19B"]
+			id: "324BDB503532E071"
+			tasks: [{
+				id: "3AE9FE3417FD7EFF"
+				type: "item"
+				item: "milkyway_bosses:pouffysummoner"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			subtitle: "VERY powerful"
+			description: ["This strange relic has the power to make any item with durability INDESTRUCTIBLE!!!!!!!!"]
+			dependencies: ["46EAFCD187BCA1E6"]
+			id: "08B48476F64DB353"
+			tasks: [{
+				id: "2542FB488153075D"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.0d
+			dependencies: ["07D594234650EF8E"]
+			id: "50D0A6A8F72BF441"
+			tasks: [{
+				id: "5251515893350127"
+				type: "item"
+				item: "tconstruct:molten_obsidian_bucket"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			dependencies: [
+				"08930E11A093A703"
+				"5341F5AF4E5BA872"
+			]
+			id: "51C2ADCDC00F46E4"
+			tasks: [{
+				id: "749852B827227436"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			dependencies: ["08930E11A093A703"]
+			id: "07D594234650EF8E"
+			tasks: [{
+				id: "79F592A6607FFE02"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.0d
+			dependencies: ["372D2467B25BBC01"]
+			id: "45F0D1CB47D5D4BD"
+			tasks: [{
+				id: "16DCD540CDD8D943"
+				type: "item"
+				item: "moreminecarts:hard_light_lens"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			dependencies: ["08930E11A093A703"]
+			id: "372D2467B25BBC01"
+			tasks: [{
+				id: "5562E5C42EBF9B23"
+				type: "item"
+				item: "moreminecarts:glass_spines"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			dependencies: ["241FF8E8E6AB73F8"]
+			id: "5341F5AF4E5BA872"
+			tasks: [{
+				id: "649D2D6BA990B14F"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			subtitle: "Find The Nipa"
+			description: ["It is said, that fluating trees in the sky hold a special plant. The Nipa generates tiny specks of arcane crystal dust over time. Finding one will allow you to automate arcane crystals."]
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "241FF8E8E6AB73F8"
+			tasks: [{
+				id: "35A9B72CE380CF29"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust_speck"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "MORE CONTENT HERE SOON"
+			description: ["Since tablets are quite complicated, they will be expanded upon in later updates."]
+			dependencies: ["34F5720728D256F7"]
+			hide: true
+			id: "50F55095057B46F7"
+			tasks: [{
+				id: "22FC1C743D4E9743"
+				type: "checkmark"
+				title: "IMPORTANT NOTE ABOUT TABLETS"
+				icon: "createdeco:orange_decal"
+			}]
+		}
+	]
+}

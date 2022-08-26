@@ -1,0 +1,10 @@
+{
+  "parent": "milkyway_core:custom/andesitemachine",
+  "textures": {
+    "all": "milkyway_core:blocks/andesite_casing",
+    "particle": "milkyway_core:blocks/andesite_casing",
+    "0": "milkyway_core:blocks/andesite_casing",
+    "2": "milkyway_core:blocks/adjustable_chain_gearshift_powered",
+    "4": "milkyway_core:blocks/encased_chain_drive"
+  }
+}

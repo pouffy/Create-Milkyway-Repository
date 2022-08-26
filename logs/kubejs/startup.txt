@@ -1,0 +1,20 @@
+[15:12:25] [INFO ] Loaded script startup_scripts:fluids.js in 0.287 s
+[15:12:25] [INFO ] Loaded script startup_scripts:items.js in 0.008 s
+[15:12:25] [INFO ] Loaded script startup_scripts:jei_stuff.js in 0.001 s
+[15:12:25] [INFO ] Hello, World! (You will only see this line once in console, during startup)
+[15:12:25] [INFO ] Loaded script startup_scripts:script.js in 0.003 s
+[15:12:25] [INFO ] Loaded script startup_scripts:worldgen.js in 0.001 s
+[15:12:25] [INFO ] Loaded 5/5 KubeJS startup scripts in 0.755 s
+[15:17:42] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[15:43:44] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[15:45:07] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[15:49:15] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[15:50:34] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[15:57:33] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[16:13:07] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[16:17:14] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[16:18:52] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[16:32:50] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[16:33:47] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[16:47:06] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)
+[17:15:06] [ERR  ] Error occurred while handling event 'jei.add.items': ReferenceError: "item" is not defined. (startup_scripts:script.js#25)

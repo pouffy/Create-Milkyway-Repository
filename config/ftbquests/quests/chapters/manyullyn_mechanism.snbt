@@ -1,0 +1,224 @@
+{
+	id: "51EEA731DDBEDEBC"
+	group: "4C843E58DB84C35F"
+	order_index: 6
+	filename: "manyullyn_mechanism"
+	title: "Manyullyn Mechanism"
+	icon: "milkyway_core:manyullyn_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_manyullyn_mechanism"
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["1E13490E8009CEFB"]
+			hide: true
+			id: "2033B4D22EA69302"
+			tasks: [{
+				id: "5DC6588E5ADACF14"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: [
+				"7489F92FFC7F68EE"
+				"741DE24A494B299C"
+				"04A9854E0C99E59F"
+				"0070A2205432C756"
+				"04043368770B77D2"
+			]
+			id: "0C013A4F3E7FD1C5"
+			tasks: [{
+				id: "530758C2DE288FCF"
+				type: "item"
+				item: "milkyway_core:manyullyn_mechanism"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["745D5095A1EAD88A"]
+			id: "7489F92FFC7F68EE"
+			tasks: [{
+				id: "34939C80D2B4257A"
+				type: "item"
+				item: "tconstruct:molten_manyullyn_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["6EB9719FDCE09F61"]
+			id: "741DE24A494B299C"
+			tasks: [{
+				id: "3E9B152B3F25FB9B"
+				type: "item"
+				item: "kubejs:pure_lens_tablet"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["16E163018F98D446"]
+			id: "0070A2205432C756"
+			tasks: [{
+				id: "1680D3C3CE9FFC6C"
+				type: "item"
+				item: {
+					id: "tconstruct:round_plate"
+					Count: 1b
+					tag: {
+						Material: "materialis:flux_infused"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["4E9E2919D40C20E4"]
+			id: "04043368770B77D2"
+			tasks: [{
+				id: "281111D7B05DD73F"
+				type: "item"
+				item: "thermal:emerald_gear"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["3CFD3D01717188DE"]
+			id: "04A9854E0C99E59F"
+			tasks: [{
+				id: "47EFD5EB0D204476"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["2033B4D22EA69302"]
+			id: "3CFD3D01717188DE"
+			tasks: [{
+				id: "71A714205D9A3340"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["2033B4D22EA69302"]
+			id: "4E9E2919D40C20E4"
+			tasks: [{
+				id: "1F94C7DD7C452336"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["2033B4D22EA69302"]
+			id: "2B54B4BFF2BA230F"
+			tasks: [{
+				id: "55ABCF77BC4F47F6"
+				type: "item"
+				item: "materialis:molten_flux_infused_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2B54B4BFF2BA230F"]
+			id: "16E163018F98D446"
+			tasks: [{
+				id: "3C1005DF64465053"
+				type: "item"
+				item: "tconstruct:round_plate_cast"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["2033B4D22EA69302"]
+			id: "6EB9719FDCE09F61"
+			tasks: [{
+				id: "04F6DFFE5F45C6FD"
+				type: "checkmark"
+				title: "Production Details in the magic chapter"
+			}]
+		}
+		{
+			title: "Manyullyn Alloying"
+			x: -3.0d
+			y: -1.0d
+			description: ["Manyullyn can be alloyed from debris and cobalt."]
+			dependencies: ["2033B4D22EA69302"]
+			id: "745D5095A1EAD88A"
+			tasks: [
+				{
+					id: "4CE325357192B670"
+					type: "item"
+					item: "tconstruct:molten_cobalt_bucket"
+				}
+				{
+					id: "4FFE03AA3242A27E"
+					type: "item"
+					item: "tconstruct:molten_debris_bucket"
+				}
+			]
+		}
+		{
+			title: "Machines and Components"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["1E13490E8009CEFB"]
+			hide: true
+			id: "6AC2D5699432F1A9"
+			tasks: [
+				{
+					id: "1DEEC13EF09ED5E8"
+					type: "item"
+					item: "create:deployer"
+					count: 4L
+				}
+				{
+					id: "05868C7A14D0FA24"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "5663A9CEB3522AE7"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "62D4C1B9B3425B7F"
+					type: "item"
+					item: "tconstruct:round_plate_cast"
+				}
+				{
+					id: "55DEAAE783E45F5D"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "58287A3D214A20BF"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "58F03FE333B0EA2E"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+			]
+		}
+	]
+}

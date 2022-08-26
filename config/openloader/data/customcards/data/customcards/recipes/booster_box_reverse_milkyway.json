@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "buddycards:buddycard_booster_box_milkyway"
+    }
+  ],
+  "result": {
+    "item": "buddycards:buddycard_pack_milkyway",
+    "count": 6
+  }
+}

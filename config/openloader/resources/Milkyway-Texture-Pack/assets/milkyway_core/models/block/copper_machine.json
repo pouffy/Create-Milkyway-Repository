@@ -1,0 +1,10 @@
+{
+  "parent": "milkyway_core:custom/coppermachine",
+  "textures": {
+    "all": "milkyway_core:blocks/copper_casing",
+    "particle": "milkyway_core:blocks/copper_casing",
+    "0": "milkyway_core:blocks/copper_casing",
+    "1": "milkyway_core:blocks/copper_gearbox",
+    "2": "milkyway_core:blocks/copper_plating"
+  }
+}

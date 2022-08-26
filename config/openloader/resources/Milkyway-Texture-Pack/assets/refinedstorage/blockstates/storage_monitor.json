@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "direction=north": {
+      "model": "refinedstorage:block/storage_monitor",
+      "y": 0
+    },
+    "direction=east": {
+      "model": "refinedstorage:block/storage_monitor",
+      "y": 90
+    },
+    "direction=south": {
+      "model": "refinedstorage:block/storage_monitor",
+      "y": 180
+    },
+    "direction=west": {
+      "model": "refinedstorage:block/storage_monitor",
+      "y": 270
+    }
+  }
+}

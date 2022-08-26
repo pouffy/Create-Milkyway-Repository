@@ -1,0 +1,8 @@
+{
+  "parent": "milkyway_core:custom/capybara",
+  "textures": {
+    "all": "milkyway_core:blocks/capybarastatue",
+    "particle": "milkyway_core:blocks/capybarastatue",
+    "2": "milkyway_core:blocks/capybarastatue"
+  }
+}

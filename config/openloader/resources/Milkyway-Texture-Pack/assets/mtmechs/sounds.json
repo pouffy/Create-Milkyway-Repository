@@ -1,0 +1,59 @@
+ 
+    {
+      "grind_loop": {
+        "subtitle": "subtitles.mtmechs.grind_loop",
+        "sounds": [
+          "mtmechs:grind_loop"
+        ]
+      },
+      
+      "drill_loop": {
+        "subtitle": "subtitles.mtmechs.drill_loop",
+        "sounds": [
+          "mtmechs:drill_loop"
+        ]
+      },
+		
+      "mechstep": {
+        "subtitle": "subtitles.mtmechs.mechstep",
+        "sounds": [
+          "mtmechs:mechstep"
+        ]
+      },
+		
+      "mechsteptwo": {
+        "subtitle": "subtitles.mtmechs.mechsteptwo",
+        "sounds": [
+          "mtmechs:mechsteptwo"
+        ]
+      },
+
+      "mechon": {
+        "subtitle": "subtitles.mtmechs.mechon",
+        "sounds": [
+          "mtmechs:mechon"
+        ]
+      },
+
+      "mechoff": {
+        "subtitle": "subtitles.mtmechs.mechoff",
+        "sounds": [
+          "mtmechs:mechoff"
+        ]
+      },
+
+      "beamheld": {
+        "subtitle": "subtitles.mtmechs.beamheld",
+        "sounds": [
+          "mtmechs:beamheld"
+        ]
+      },
+      
+      "opening": {
+        "subtitle": "subtitles.mtmechs.opening",
+        "sounds": [
+          "mtmechs:opening"
+        ]
+      }
+    }
+

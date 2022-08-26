@@ -1,0 +1,62 @@
+{
+  "sus": {
+    "category": "master",
+    "subtitle": "subtitles.sus",
+    "sounds": [
+      {
+        "name": "milkyway_core:among_us_trap_remix_bass_boosted_leonz_8455886905626474145-mp3cut",
+        "stream": false
+      }
+    ]
+  },
+  "icecreammachineisbroken": {
+    "category": "block",
+    "subtitle": "subtitles.icecreammachineisbroken",
+    "sounds": [
+      {
+        "name": "milkyway_core:ice_cream_machine",
+        "stream": false
+      }
+    ]
+  },
+  "dyude": {
+    "category": "music",
+    "subtitle": "subtitles.dyude",
+    "sounds": [
+      {
+        "name": "milkyway_core:dyde",
+        "stream": true
+      }
+    ]
+  },
+  "bigshot": {
+    "category": "music",
+    "subtitle": "subtitles.bigshot",
+    "sounds": [
+      {
+        "name": "milkyway_core:20220515-008",
+        "stream": true
+      }
+    ]
+  },
+  "kermitsong": {
+    "category": "music",
+    "subtitle": "subtitles.kermitsong",
+    "sounds": [
+      {
+        "name": "milkyway_core:kermit-sings",
+        "stream": true
+      }
+    ]
+  },
+  "propaganda": {
+    "category": "music",
+    "subtitle": "subtitles.propaganda",
+    "sounds": [
+      {
+        "name": "milkyway_core:you-are-not-immune-to-propaganda",
+        "stream": true
+      }
+    ]
+  }
+}

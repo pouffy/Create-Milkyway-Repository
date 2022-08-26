@@ -1,0 +1,417 @@
+{
+	id: "723FE1B0C06B1858"
+	group: "4C843E58DB84C35F"
+	order_index: 3
+	filename: "tech_tube"
+	title: "Tech Tube"
+	icon: "kubejs:tech_tube"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_tech_tube"
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["3A15EDBCE7767026"]
+			hide: true
+			id: "3A33FD25350FD8B7"
+			tasks: [{
+				id: "546C472D421E12EC"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: [
+				"2CE957F2FFA8705F"
+				"14ED5BA5F165B67C"
+				"4D40BA28EB2045B2"
+				"43C99A485111E60A"
+			]
+			id: "06F55FB6C31ECE81"
+			tasks: [{
+				id: "56541EBBDF82BBDA"
+				type: "item"
+				item: "kubejs:tech_tube"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: [
+				"7A4843CF8307E397"
+				"028A70535873E6A6"
+			]
+			id: "14ED5BA5F165B67C"
+			tasks: [{
+				id: "2F2B9DB6F3CA3673"
+				type: "item"
+				item: "thermal:redstone_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["3F577FB356142839"]
+			id: "4D40BA28EB2045B2"
+			tasks: [{
+				id: "74B0C18951786DB1"
+				type: "item"
+				item: "thermal:latex_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["3E1DD4E6F71C288B"]
+			id: "2CE957F2FFA8705F"
+			tasks: [{
+				id: "2E7173D476DFF1C5"
+				type: "item"
+				item: "kubejs:polished_diamond_quartz"
+			}]
+		}
+		{
+			icon: "minecraft:jungle_sapling"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "You would walk 500 miles"
+			description: ["Latex has to be extracted from a jungle tree with an arboreal extractor. Jungles aren't very common so you're probably going to want to start walking."]
+			dependencies: ["3A33FD25350FD8B7"]
+			id: "3F577FB356142839"
+			tasks: [{
+				id: "7E9D3049FDB7779A"
+				type: "item"
+				item: "minecraft:jungle_sapling"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			subtitle: "Shiny"
+			description: ["This glorious chunk of quartz needs to be polished into the perfect bulb for your tech tube."]
+			dependencies: [
+				"53A713159D8B4962"
+				"25F6D4267F5FE6D6"
+			]
+			id: "3E1DD4E6F71C288B"
+			tasks: [{
+				id: "57F008FAABB12B86"
+				type: "item"
+				item: "kubejs:diamond_quartz"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Transport Required"
+			description: [
+				"Quartz will have been an extra output from your precision mechanism factory, now you just need to transport it here ready for mixing."
+				"Basalz powder seems to have strange effects on certain crystals, causing them to grow and bloom. Maybe try adding some of that powder in with your mixture."
+			]
+			dependencies: ["3A15EDBCE7767026"]
+			id: "53A713159D8B4962"
+			tasks: [{
+				id: "73487C23642084E7"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "\"Natural\" Diamonds"
+			description: [
+				"Now, diamonds may be a slight issue to automate. However, due to the fact a blaze burner seems to be capable of speeding up time when it comes to minerals, you should be able to compress some carbon with a very hot fluid to make your own diamonds!"
+				"You will then have to melt them down into their molten form to help it fuse with the quartz."
+				"There is a very low chance of forming a diamond so you'll have to find a better way later on..."
+			]
+			dependencies: [
+				"711FF752B69E7E8F"
+				"7A4843CF8307E397"
+				"3A33FD25350FD8B7"
+			]
+			id: "25F6D4267F5FE6D6"
+			tasks: [{
+				id: "01AD9E106BE66138"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "Primative Power"
+			description: [
+				"Redstone can be melted, destabilizing it in the process, into a liquid."
+				"Redstone can be washed out of crushed netherrack so automating this will take you to hell and back (literally)."
+			]
+			dependencies: ["2C760717E441A786"]
+			id: "028A70535873E6A6"
+			tasks: [{
+				id: "0721ADC4AF47C64B"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Blood of fire"
+			description: ["Fun Fact: You can move a blaze spawner inside a smeltery and watch the newborns melt in pools of their own blood! Isn't it amazing! Their blood can be used as a rather effective fuel for your smeltery or can be used when the blaze burner just isn't hot enough."]
+			dependencies: ["3A15EDBCE7767026"]
+			id: "7A4843CF8307E397"
+			tasks: [{
+				id: "77FB37B497E76B05"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+		{
+			title: "Machines and Components"
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["3A15EDBCE7767026"]
+			hide: true
+			id: "2BDAEB5F2CEDE51F"
+			tasks: [
+				{
+					id: "38D66C53DFE7512F"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+				}
+				{
+					id: "2A5FB1106B0715A0"
+					type: "item"
+					item: "create:mechanical_press"
+					count: 2L
+				}
+				{
+					id: "0342B1E2C3642EE6"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "0BF0A107E8BADA21"
+					type: "item"
+					item: "create:blaze_burner"
+					count: 2L
+				}
+				{
+					id: "0840798964FDFE63"
+					type: "item"
+					item: "create:spout"
+					count: 2L
+				}
+				{
+					id: "2FF061A82F24BACD"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "39AFBF23B4B31796"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "590AE7A13D281055"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 4L
+				}
+				{
+					id: "4E69B5EA4AB1409D"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "4D02AE3FD38C3013"
+					type: "item"
+					item: "create:encased_fan"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "\"Carbon is at the center of it all, There is no life without carbon.\"- Walter Hartwell White Sr"
+			description: ["Crushing coal seems to give back small powdered clumps of carbon. "]
+			dependencies: ["3A15EDBCE7767026"]
+			id: "711FF752B69E7E8F"
+			tasks: [{
+				id: "77B399C06133C81B"
+				type: "item"
+				item: "createchromaticreturn:carbon_powder"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Plentiful Resource"
+			description: ["You won't have to worry about searching for this. It's literally everywhere once you enter the Nether. However, if you intend to automate it, try haunting clay blocks."]
+			dependencies: ["3A33FD25350FD8B7"]
+			id: "2C760717E441A786"
+			tasks: [{
+				id: "5705C4E4F5477EF9"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["6643F5B0DC9B25AE"]
+			id: "43C99A485111E60A"
+			tasks: [{
+				id: "4C38739DBBB4BC5B"
+				type: "item"
+				item: "kubejs:amethyst_steel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Unlikely Combination"
+			description: ["Pouring molten amethyst over steel causes them to fuse, resulting in what I call: Amethyst Steel!"]
+			dependencies: ["3A33FD25350FD8B7"]
+			id: "6643F5B0DC9B25AE"
+			tasks: [
+				{
+					id: "60EB50CDA6277187"
+					type: "item"
+					item: "tconstruct:molten_amethyst_bucket"
+				}
+				{
+					id: "7982378E651DD565"
+					type: "item"
+					item: "alloyed:steel_ingot"
+				}
+			]
+		}
+		{
+			title: "Flux Coil Start"
+			icon: "kubejs:incomplete_redstone_flux_coil"
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["07E968A74C8AAFA9"]
+			hide: true
+			id: "539AF4847CBF7843"
+			tasks: [{
+				id: "7433E2F0199922DE"
+				type: "checkmark"
+				title: "Redstone Flux Coil"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			dependencies: [
+				"353352B5D40D1373"
+				"54155993BB20B72A"
+				"090C4359137FBF24"
+			]
+			id: "51AF345C1887F54B"
+			tasks: [{
+				id: "3086E67336AEC4FB"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			dependencies: ["14EFD65412889354"]
+			id: "353352B5D40D1373"
+			tasks: [{
+				id: "1DEACAD995DED213"
+				type: "item"
+				item: "createaddition:gold_rod"
+			}]
+		}
+		{
+			title: "More Destabilized Redstone"
+			x: 1.5d
+			y: 9.0d
+			dependencies: [
+				"14ED5BA5F165B67C"
+				"539AF4847CBF7843"
+			]
+			id: "090C4359137FBF24"
+			tasks: [{
+				id: "5F99CB6A95EF5A75"
+				type: "item"
+				item: "thermal:redstone_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["087D0CDA600DD219"]
+			id: "54155993BB20B72A"
+			tasks: [{
+				id: "44188F97C6BC1B30"
+				type: "item"
+				item: "thermal:cinnabar_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			subtitle: "Volcanic"
+			description: ["Traces of cinnabar can be found within volcanic rocks. Blackstome must contain some cinnabar."]
+			dependencies: ["539AF4847CBF7843"]
+			id: "087D0CDA600DD219"
+			tasks: [{
+				id: "634ADD600291C0E8"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			subtitle: "Roll it"
+			description: ["Rolling a gold ingot in the rolling mill grants gold rods. Teses will make the perfect base for a flux coil."]
+			dependencies: ["539AF4847CBF7843"]
+			id: "14EFD65412889354"
+			tasks: [{
+				id: "79734E59FBC8BD6A"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			title: "Machines and Components"
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["539AF4847CBF7843"]
+			id: "709CE2F2CF216C60"
+			tasks: [
+				{
+					id: "267CCAE114A8F8CD"
+					type: "item"
+					item: "create:deployer"
+					count: 2L
+				}
+				{
+					id: "6B7502BF132E8B95"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "330925EFC98FA77E"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 2L
+				}
+				{
+					id: "4697B347352CF49B"
+					type: "item"
+					item: "createaddition:rolling_mill"
+				}
+			]
+		}
+	]
+}

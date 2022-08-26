@@ -1,0 +1,11 @@
+{
+  "parent": "milkyway_core:custom/logicmachine",
+  "textures": {
+    "all": "milkyway_core:blocks/disk_drive_side",
+    "particle": "milkyway_core:blocks/disk_drive_side",
+    "0": "milkyway_core:blocks/disk_drive_side",
+    "1": "milkyway_core:blocks/side",
+    "2": "milkyway_core:blocks/quartz_enriched_iron_block",
+    "3": "milkyway_core:blocks/machine_casing"
+  }
+}

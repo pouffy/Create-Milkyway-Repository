@@ -1,0 +1,164 @@
+{
+	id: "74FD1B9347D1B466"
+	group: "2D12C7D291D1053B"
+	order_index: 0
+	filename: "copper_mechanism"
+	title: "Copper Mechanism"
+	icon: "milkyway_core:copper_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_copper_mechanism"
+			x: -0.5d
+			y: -4.5d
+			dependencies: [
+				"796D39F5C3616255"
+				"3E2D8A74A386B31F"
+			]
+			hide: true
+			id: "7EEBC58851240F86"
+			tasks: [{
+				id: "2F77824CE18B0242"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			icon: "createdeco:orange_decal"
+			x: -1.5d
+			y: -4.5d
+			subtitle: "READ ME"
+			description: ["This Mechanism, while only requiring a basic mechanism to assemble does require metals that have to be alloyed and thus this mechanism is only accessible after the smeltery has been acquired."]
+			dependencies: ["796D39F5C3616255"]
+			hide: true
+			id: "3E2D8A74A386B31F"
+			tasks: [{
+				id: "33A84B8512FFC8C2"
+				type: "checkmark"
+				title: "Important Note!"
+			}]
+		}
+		{
+			title: "Machines and Components"
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["796D39F5C3616255"]
+			hide: true
+			id: "7E7075CBDF6DB9C0"
+			tasks: [
+				{
+					id: "548C9AC34582464E"
+					type: "checkmark"
+					title: "Smeltery"
+					icon: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "26F27D7E65D3F9F9"
+					type: "checkmark"
+					title: "Mechanical Press"
+					icon: "create:mechanical_press"
+				}
+				{
+					id: "7445CB674937B8EC"
+					type: "checkmark"
+					title: "Deployer"
+					icon: "create:deployer"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "Alloying? How strange"
+			description: [
+				"Bronze has to be alloyed in a smeltery before you can cast it in to an ingot."
+				"You'll need copper and tin to create bronze, so get mining."
+				"Tin can be crushed out of shale but that doesn't seem to be a reliable source for automation. Perhaps try creating this new sedimentary rock with your trusty burner."
+				"Copper nuggets can be crushed from terracotta though."
+			]
+			dependencies: ["7EEBC58851240F86"]
+			id: "29A4106E838D78A9"
+			tasks: [{
+				id: "605DE2FBC71A71C2"
+				type: "item"
+				item: "alloyed:bronze_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["29A4106E838D78A9"]
+			id: "417A1FBEA8B28811"
+			tasks: [{
+				id: "73C2D825524D6D20"
+				type: "item"
+				item: "alloyed:bronze_sheet"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			subtitle: "Plentiful Resource But Automation Recommended"
+			description: ["While copper is found commonly almost everywhere, it is still a good idea to automate it. Maybe take some copper from your bronze alloyer to cast in to ingots!"]
+			dependencies: ["7EEBC58851240F86"]
+			id: "5A94AFD1541867EE"
+			tasks: [{
+				id: "7DB7A8B8E7802CF8"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["5A94AFD1541867EE"]
+			id: "2AE1C5572EE99336"
+			tasks: [{
+				id: "4D48792E91D56424"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["6EDDDD14B440046E"]
+			id: "0F710E1B216D320F"
+			tasks: [{
+				id: "7528E16CDD7FE475"
+				type: "item"
+				item: "thermal:iron_gear"
+			}]
+		}
+		{
+			icon: "tconstruct:gear_cast"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Metal Gear"
+			description: ["You'll need to automate gears again for this one. Luckily, iron can be washed out of gravel! How convinient."]
+			dependencies: ["7EEBC58851240F86"]
+			id: "6EDDDD14B440046E"
+			tasks: [{
+				id: "4565B61B6F9EF29F"
+				type: "checkmark"
+				title: "Gear Casting"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: [
+				"2AE1C5572EE99336"
+				"417A1FBEA8B28811"
+				"0F710E1B216D320F"
+			]
+			id: "735D3C10C53C16EC"
+			tasks: [{
+				id: "1D4B2E0EEE65A49B"
+				type: "item"
+				item: "milkyway_core:copper_mechanism"
+			}]
+		}
+	]
+}

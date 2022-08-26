@@ -1,0 +1,419 @@
+{
+	id: "522D4C225516B938"
+	group: "4C843E58DB84C35F"
+	order_index: 5
+	filename: "logic_mechanism"
+	title: "Logic Mechanism"
+	icon: "milkyway_core:logic_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_logic_mechanism"
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["2C9E9C4FD5ED0AF8"]
+			hide: true
+			id: "023C53590F8843DF"
+			tasks: [{
+				id: "0A259E5D8B6D5E62"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: [
+				"51F3E2CE792B4524"
+				"23CF50E7F082CE56"
+				"12711FB7A9A9C876"
+				"6B35C6AF93751293"
+				"535250343C334D24"
+			]
+			id: "3BD7476328892125"
+			tasks: [{
+				id: "4E663871813ED6E3"
+				type: "item"
+				item: "milkyway_core:logic_mechanism"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["3EB93BA6FA9FA57D"]
+			id: "51F3E2CE792B4524"
+			tasks: [{
+				id: "372F64FAA4FF9800"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["3B77C0CCC8CCF92D"]
+			id: "6B35C6AF93751293"
+			tasks: [{
+				id: "367802E0ACB29E8B"
+				type: "item"
+				item: "moreminecarts:silica_steel"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["208FADCE70FB9F43"]
+			id: "535250343C334D24"
+			tasks: [{
+				id: "4A0C96BE57F81859"
+				type: "item"
+				item: "refinedstorage:advanced_processor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["1A68F80F7EB93EB0"]
+			id: "23CF50E7F082CE56"
+			tasks: [{
+				id: "72EFC9386EFB92B2"
+				type: "item"
+				item: "milkyway_core:logic_chip"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["5A8C3D48B529712D"]
+			id: "12711FB7A9A9C876"
+			tasks: [{
+				id: "457DCD603BCA5EFA"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["0587300C2C94B943"]
+			id: "3EB93BA6FA9FA57D"
+			tasks: [{
+				id: "58C5136DD3B07D31"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Jungle blood"
+			description: ["Latex is extracted from jungle trees! You should have some saplings from your production of tech tubes."]
+			dependencies: ["023C53590F8843DF"]
+			id: "0587300C2C94B943"
+			tasks: [{
+				id: "4359EA5E62E70279"
+				type: "item"
+				item: "thermal:latex_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["76E4744388C34D6F"]
+			id: "3B77C0CCC8CCF92D"
+			tasks: [{
+				id: "658A9567B1742D21"
+				type: "item"
+				item: "moreminecarts:silica_steel_mix"
+			}]
+		}
+		{
+			title: "Silca Mix Ingredients"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "A strange mix"
+			description: [
+				"Coal can be pulverized from basalt."
+				"Quartz can be crushed from diorite."
+				"And iron can be washed from gravel."
+			]
+			dependencies: ["023C53590F8843DF"]
+			id: "76E4744388C34D6F"
+			tasks: [
+				{
+					id: "1889300F920CFDB7"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 3L
+				}
+				{
+					id: "745E23336E9565D9"
+					type: "item"
+					item: "minecraft:coal"
+				}
+				{
+					id: "0C5629D0F06D0485"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["Most regular trees can be extracted for resin."]
+			dependencies: ["023C53590F8843DF"]
+			id: "5A8C3D48B529712D"
+			tasks: [{
+				id: "2812AB4CB42CED25"
+				type: "checkmark"
+				title: "Tree Extracting"
+				icon: "createdeco:orange_decal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: [
+				"70453F33263701D9"
+				"4F897A82E0BF87E8"
+				"52A23BE31A504363"
+			]
+			id: "208FADCE70FB9F43"
+			tasks: [{
+				id: "7F57C6D2A5FA7B17"
+				type: "item"
+				item: "refinedstorage:raw_advanced_processor"
+			}]
+		}
+		{
+			title: "Powerful Ingots"
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["5A4C53E53D605878"]
+			id: "5FED86806FA29245"
+			tasks: [
+				{
+					id: "6354FF5ABD87306F"
+					type: "item"
+					item: "thermal:electrum_ingot"
+				}
+				{
+					id: "31857D1C5CE40562"
+					type: "item"
+					item: "thermal:signalum_ingot"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["5A4C53E53D605878"]
+			id: "5B30693B933A5763"
+			tasks: [{
+				id: "418832FE42779B68"
+				type: "item"
+				item: "create_stuff_additions:heap_of_experience"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			subtitle: "Already Automated (Hopefully)"
+			description: ["I sure hope you've automated lead! If you haven't, I know where you live...."]
+			dependencies: ["5A4C53E53D605878"]
+			id: "4B2BC3D2C6599265"
+			tasks: [{
+				id: "4F266940C728ECE1"
+				type: "item"
+				item: "thermal:lead_plate"
+			}]
+		}
+		{
+			icon: "create:mechanical_crafter"
+			x: 1.5d
+			y: 2.5d
+			subtitle: "Well.... That's annoying"
+			description: ["Since they are very powerful, a simple mixing recipe won't work. You'll need to craft these! Luckily, the mechanical crafter exists and can be used to automatically craft the chips."]
+			dependencies: [
+				"5FED86806FA29245"
+				"5B30693B933A5763"
+				"4B2BC3D2C6599265"
+			]
+			id: "1A68F80F7EB93EB0"
+			tasks: [{
+				id: "3BFBC8E85AA51A95"
+				type: "checkmark"
+				title: "Mechanical Crafting"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "A pure lens tablet should do!"
+			description: ["Having discovered the use of runes, you'd know that pure lens tablets can be used as a more powerful way to manipulate stronger materials. "]
+			dependencies: ["6FFC3EEA9D5DA825"]
+			id: "70453F33263701D9"
+			tasks: [{
+				id: "27A8EFE9A3C93BD8"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["6FFC3EEA9D5DA825"]
+			id: "4F897A82E0BF87E8"
+			tasks: [{
+				id: "79C7D7DB07CEDB30"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			title: "Sticky Bindings"
+			x: -4.5d
+			y: -1.0d
+			description: ["While silicon is easy to make, you can also mix some string and slime in a basin to make processor bindings. It only gives half the amount you'd craft but that's because of the reduction in slime cost."]
+			dependencies: ["6FFC3EEA9D5DA825"]
+			id: "52A23BE31A504363"
+			tasks: [
+				{
+					id: "76948DEA4DB4E460"
+					type: "item"
+					item: "refinedstorage:silicon"
+				}
+				{
+					id: "1A50AFC2C6A8A6F1"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+				}
+			]
+		}
+		{
+			title: "Machines and Components"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["2C9E9C4FD5ED0AF8"]
+			hide: true
+			id: "31278A2339BF2F55"
+			tasks: [
+				{
+					id: "192A15D525ED0D1C"
+					type: "item"
+					item: "create:mechanical_press"
+					count: 4L
+				}
+				{
+					id: "6837C33C594E53C9"
+					type: "item"
+					item: "create:encased_fan"
+					count: 5L
+				}
+				{
+					id: "0B32A3963448A8ED"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+					count: 2L
+				}
+				{
+					id: "6B5F795341460F76"
+					type: "item"
+					item: "tconstruct:ingot_cast"
+					count: 2L
+				}
+				{
+					id: "720A54EDB184B785"
+					type: "item"
+					item: "create:mechanical_mixer"
+					count: 2L
+				}
+				{
+					id: "793087A9CA6846E3"
+					type: "item"
+					item: "create:basin"
+					count: 3L
+				}
+				{
+					id: "7C3D782DE9914DB2"
+					type: "item"
+					item: "create:deployer"
+					count: 4L
+				}
+				{
+					id: "261953051F3C979F"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "69AF1CFF9097351F"
+					type: "item"
+					item: "create:mechanical_crafter"
+					count: 9L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["023C53590F8843DF"]
+			id: "6FFC3EEA9D5DA825"
+			tasks: [{
+				id: "4F1DA7A6885557F8"
+				type: "checkmark"
+				title: "Raw Processor Ingredients"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["023C53590F8843DF"]
+			id: "5A4C53E53D605878"
+			tasks: [{
+				id: "3EDC5FE255B78255"
+				type: "checkmark"
+				title: "Logic Chip Ingredients"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			subtitle: "Core of all storage machines"
+			dependencies: [
+				"1B4618A530C22959"
+				"180600DC50EA2BD3"
+				"3BD7476328892125"
+			]
+			id: "626DD8C1E54B02F3"
+			tasks: [{
+				id: "2728F87EBD1AB3F1"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			dependencies: ["3BD7476328892125"]
+			id: "180600DC50EA2BD3"
+			tasks: [{
+				id: "5B1C3A53B2B31894"
+				type: "item"
+				item: "milkyway_core:bulb"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["3BD7476328892125"]
+			id: "1B4618A530C22959"
+			tasks: [{
+				id: "2018AEDF129971AA"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+	]
+}

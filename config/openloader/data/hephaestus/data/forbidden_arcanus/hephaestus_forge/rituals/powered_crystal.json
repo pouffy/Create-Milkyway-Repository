@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:nether_star",
+            "slot": 0
+        },
+        {
+            "item": "create_stuff_additions:heap_of_experience",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:redstone",
+            "slot": 2
+        },
+        {
+            "item": "thermal:electrum_dust",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:redstone",
+            "slot": 4
+        },
+        {
+            "item": "thermal:electrum_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "milkyway_bosses:empty_summoning_crystal",
+    "essences": {
+        "aureal": 200,
+        "blood": 2000,
+        "souls": 1,
+        "experience": 200
+    },
+    "result": {
+        "item": "milkyway_bosses:powered_summoning_crystal",
+        "count": 1
+    }
+}

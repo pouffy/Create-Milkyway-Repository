@@ -1,0 +1,12 @@
+{
+  "parent": "milkyway_core:custom/brassmachine",
+  "textures": {
+    "all": "milkyway_core:blocks/brass_casing_side",
+    "particle": "milkyway_core:blocks/brass_casing_side",
+    "0": "milkyway_core:blocks/brass_block",
+    "2": "milkyway_core:blocks/brass_casing_side",
+    "3": "milkyway_core:blocks/clockwork_bearing_side",
+    "4": "milkyway_core:blocks/zinc_block",
+    "6": "milkyway_core:blocks/new_piskel_45"
+  }
+}

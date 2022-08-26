@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "milkyway_core:blocks/zinc_casing",
+    "up": "milkyway_core:blocks/zinc_casing",
+    "north": "milkyway_core:blocks/zinc_casing",
+    "east": "milkyway_core:blocks/zinc_casing",
+    "south": "milkyway_core:blocks/zinc_casing",
+    "west": "milkyway_core:blocks/zinc_casing",
+    "particle": "milkyway_core:blocks/zinc_casing"
+  }
+}

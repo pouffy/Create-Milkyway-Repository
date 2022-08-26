@@ -1,0 +1,201 @@
+{
+	id: "510E7F59D4E25C88"
+	group: "4C843E58DB84C35F"
+	order_index: 4
+	filename: "cobalt_mechanism"
+	title: "Cobalt Mechanism"
+	icon: "milkyway_core:cobalt_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:incomplete_cobalt_mechanism"
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["1C1909479EE540BF"]
+			hide: true
+			id: "1202BAF68EFB08BA"
+			tasks: [{
+				id: "0FBC6F4699BE0625"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: [
+				"132BD28EB02C937B"
+				"704941A9BFBD2EB6"
+				"69D6D250FAAF4B71"
+				"11A8669FA667E158"
+				"71E52086C5C091A5"
+			]
+			id: "7E92C100774BE32B"
+			tasks: [{
+				id: "205C39873BFF5039"
+				type: "item"
+				item: "milkyway_core:cobalt_mechanism"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["645AEE0D83A6C0D1"]
+			id: "11A8669FA667E158"
+			tasks: [{
+				id: "5912AF8BFDDF2FC5"
+				type: "item"
+				item: "thermal:lead_plate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["5AC13326AEED3798"]
+			id: "69D6D250FAAF4B71"
+			tasks: [{
+				id: "6D33917E2394B340"
+				type: "item"
+				item: "create:zinc_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["1BE8419F90788F35"]
+			id: "132BD28EB02C937B"
+			tasks: [{
+				id: "6482B1E2E908C9E4"
+				type: "item"
+				item: {
+					id: "tconstruct:round_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:cobalt"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["79AC2734C4E475EE"]
+			id: "71E52086C5C091A5"
+			tasks: [{
+				id: "0D658B23A89ADEF9"
+				type: "item"
+				item: "kubejs:polished_diamond_quartz"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Don't expose yourself to it!"
+			description: ["Lead can be pressed into a plate. "]
+			dependencies: ["0D137F2BDD6BF442"]
+			id: "645AEE0D83A6C0D1"
+			tasks: [{
+				id: "780F6777564E15B8"
+				type: "item"
+				item: "thermal:lead_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Deep deep below the earth"
+			description: ["Crushing darkstone reveals some crushed lead chunks."]
+			dependencies: ["1202BAF68EFB08BA"]
+			id: "0D137F2BDD6BF442"
+			tasks: [{
+				id: "7615259D53F1F043"
+				type: "item"
+				item: "forbidden_arcanus:darkstone"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			subtitle: "Bubble bubble toil and trouble"
+			description: [
+				"You can use the ancient art of alchemy to magically convert silver to zinc!"
+				"Silver can be converted from iron."
+			]
+			dependencies: ["215A3DE11DE77A52"]
+			id: "5AC13326AEED3798"
+			tasks: [{
+				id: "0B7C8DC92316928A"
+				type: "item"
+				item: "tconstruct:molten_silver_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["1202BAF68EFB08BA"]
+			id: "215A3DE11DE77A52"
+			tasks: [{
+				id: "243A3B16A5F9FA9C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["4B19ED821FA04B8C"]
+			id: "1BE8419F90788F35"
+			tasks: [{
+				id: "574940F148FC5147"
+				type: "item"
+				item: "tconstruct:round_plate_cast"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["1202BAF68EFB08BA"]
+			id: "4B19ED821FA04B8C"
+			tasks: [{
+				id: "62DF736B18E4B1E9"
+				type: "item"
+				item: "tconstruct:molten_cobalt_bucket"
+			}]
+		}
+		{
+			icon: "thermal:emerald_gear"
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["1202BAF68EFB08BA"]
+			id: "79AC2734C4E475EE"
+			tasks: [{
+				id: "2AA2475E645BD33B"
+				type: "checkmark"
+				title: "Already Automated"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["5AC13326AEED3798"]
+			id: "704941A9BFBD2EB6"
+			tasks: [{
+				id: "7CC00B30C309AAE1"
+				type: "item"
+				item: "tconstruct:molten_zinc_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["7E92C100774BE32B"]
+			id: "693E770130F1C0E3"
+			tasks: [{
+				id: "2450DF4572392BEC"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+		}
+	]
+}

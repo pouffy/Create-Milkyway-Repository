@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "quark:purple_shard",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:eternal_stella",
+            "slot": 1
+        },
+        {
+            "item": "forbidden_arcanus:corrupti_dust",
+            "slot": 2
+        },
+        {
+            "item": "createchromaticreturn:chromatic_compound",
+            "slot": 3
+        },
+        {
+            "item": "forbidden_arcanus:obsidian_skull",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "milkyway_bosses:powered_summoning_crystal",
+    "essences": {
+        "aureal": 200,
+        "blood": 2000,
+        "souls": 1,
+        "experience": 200
+    },
+    "result": {
+        "item": "milkyway_bosses:igohera_gem",
+        "count": 1
+    }
+}

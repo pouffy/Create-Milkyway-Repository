@@ -1,0 +1,49 @@
+
+#Daily Rewards (General configuration)
+[General]
+	#Time in minutes the players needs to be online on the server before receiving a reward for the day.
+	#Range: 1 ~ 1440
+	rewardTimePerDay = 30
+	#Shows the rewards menu when a player joins the server (if there are unclaimed rewards).
+	showRewardMenuOnPlayerJoin = false
+
+["Fill Items"]
+	#List of normal fill items which are used in the case we have not enough valid items for a month.
+	normalFillItems = ["minecraft:cooked_beef:16", "create:nugget_of_experience:8", "minecraft:oak_log:16", "minecraft:white_wool:4", "minecraft:redstone:8", "minecraft:wheat_seeds:16", "minecraft:pumpkin_seeds:16", "create:andesite_alloy:16", "thermal:phytogro:16", "thermal:nickel_dust:6"]
+	#List of rare fill items which are used in the case we have not enough valid items for a month.
+	rareFillItems = ["milkyway_core:basic_mechanism:4", "minecraft:quartz:3", "create:precision_mechanism"]
+	#The chance to use a rare item instead of a regular one. e.g. 7 means every 7th items could be a rare item. (0 = disabled)
+	#Range: 0 ~ 100
+	rareFillItemsChance = 24
+	#List of loot bag fill items which are used in the case we have not enough valid items for a month.
+	lootBagFillItems = ["lootbagmod:lootbag"]
+	#The chance to use a loot bag item instead of a regular one. e.g. 15 means every 15th items could be a loot bag item. (0 = disabled)
+	#Range: 0 ~ 100
+	lootBagFillItemsChance = 15
+
+["Rewards Items"]
+	#List of rewards items for January.
+	rewardsJanuaryItems = []
+	#List of rewards items for February.
+	rewardsFebruaryItems = []
+	#List of rewards items for March.
+	rewardsMarchItems = []
+	#List of rewards items for April.
+	rewardsAprilItems = []
+	#List of rewards items for May.
+	rewardsMayItems = ["minecraft:egg:16"]
+	#List of rewards items for June.
+	rewardsJuneItems = []
+	#List of rewards items for July.
+	rewardsJulyItems = []
+	#List of rewards items for August.
+	rewardsAugustItems = []
+	#List of rewards items for September.
+	rewardsSeptemberItems = []
+	#List of rewards items for October.
+	rewardsOctoberItems = []
+	#List of rewards items for November.
+	rewardsNovemberItems = []
+	#List of rewards items for December.
+	rewardsDecemberItems = ["minecraft:firework_rocket:32"]
+

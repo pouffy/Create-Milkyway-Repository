@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "create:crushed_lead_ore",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:eternal_stella",
+            "slot": 1
+        },
+        {
+            "item": "milkyway_core:transium_alloy",
+            "slot": 2
+        },
+        {
+            "item": "thermal:enderium_ingot",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:egg",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "milkyway_bosses:powered_summoning_crystal",
+    "essences": {
+        "aureal": 200,
+        "blood": 2000,
+        "souls": 1,
+        "experience": 200
+    },
+    "result": {
+        "item": "milkyway_bosses:murphymonsummoner",
+        "count": 1
+    }
+}

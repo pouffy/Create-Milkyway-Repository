@@ -1,0 +1,38 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:testmachine",
+	"time": 100,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "kubejs:completion_token",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 20,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "thermal:bronze_coin",
+			"amount": 4,
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "thermal:electrum_coin",
+			"amount": 1,
+			"mode": "output",
+			"chance": 0.0001
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "thermal:bronze_coin",
+			"amount": 1,
+			"mode": "output",
+			"chance": 0.1
+		}
+	]
+}

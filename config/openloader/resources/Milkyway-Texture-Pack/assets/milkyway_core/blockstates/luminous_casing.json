@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "milkyway_core:block/luminous_casing",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "milkyway_core:block/luminous_casing"
+    },
+    "axis=z": {
+      "model": "milkyway_core:block/luminous_casing",
+      "x": 90
+    }
+  }
+}

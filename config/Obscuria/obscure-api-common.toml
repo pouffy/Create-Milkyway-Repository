@@ -1,0 +1,5 @@
+
+[General]
+	#Drop Sharp Rib from skeletons
+	dropSharpRib = true
+

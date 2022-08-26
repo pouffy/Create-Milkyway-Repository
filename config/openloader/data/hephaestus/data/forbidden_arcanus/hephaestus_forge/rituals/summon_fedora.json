@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:light_blue_stained_glass_pane",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:eternal_stella",
+            "slot": 1
+        },
+        {
+            "item": "alloyed:steel_helmet",
+            "slot": 2
+        },
+        {
+            "item": "quark:diamond_heart",
+            "slot": 3
+        },
+        {
+            "item": "thermal:ice_charge",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "milkyway_bosses:powered_summoning_crystal",
+    "essences": {
+        "aureal": 200,
+        "blood": 2000,
+        "souls": 1,
+        "experience": 200
+    },
+    "result": {
+        "item": "milkyway_bosses:fedoracrystal",
+        "count": 1
+    }
+}

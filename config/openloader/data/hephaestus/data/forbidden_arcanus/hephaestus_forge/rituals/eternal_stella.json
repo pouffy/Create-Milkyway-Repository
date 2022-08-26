@@ -1,0 +1,38 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:experience_bottle",
+            "slot": 0
+        },
+        {
+            "item": "forbidden_arcanus:stellarite_piece",
+            "slot": 1
+        },
+        {
+            "item": "create_stuff_additions:heap_of_experience",
+            "slot": 2
+        },
+        {
+            "item": "minecraft:book",
+            "slot": 3
+        },
+        {
+            "item": "minecraft:amethyst_shard",
+            "slot": 4
+        },
+        {
+            "item": "forbidden_arcanus:mundabitur_dust",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:lava_bucket",
+    "essences": {
+        "aureal": 100,
+        "blood": 1000,
+        "souls": 1
+    },
+    "result": {
+        "item": "milkyway_core:liquid_magic_bucket",
+        "count": 1
+    }
+}

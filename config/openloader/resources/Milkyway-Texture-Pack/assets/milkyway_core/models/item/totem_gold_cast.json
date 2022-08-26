@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "milkyway_core:items/desktop_screenshot_2022.06.03_-_20.17.16.07"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "milkyway_core:blocks/vanilla_block",
+    "particle": "milkyway_core:blocks/vanilla_block"
+  }
+}

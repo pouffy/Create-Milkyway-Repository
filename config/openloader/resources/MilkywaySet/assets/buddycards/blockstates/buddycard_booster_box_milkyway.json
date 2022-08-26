@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,layers=1": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway1"
+    },
+    "facing=east,layers=1": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway1",
+      "y": 90
+    },
+    "facing=south,layers=1": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway1",
+      "y": 180
+    },
+    "facing=west,layers=1": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway1",
+      "y": 270
+    },
+    "facing=north,layers=2": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway2"
+    },
+    "facing=east,layers=2": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway2",
+      "y": 90
+    },
+    "facing=south,layers=2": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway2",
+      "y": 180
+    },
+    "facing=west,layers=2": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway2",
+      "y": 270
+    },
+    "facing=north,layers=3": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway3"
+    },
+    "facing=east,layers=3": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway3",
+      "y": 90
+    },
+    "facing=south,layers=3": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway3",
+      "y": 180
+    },
+    "facing=west,layers=3": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway3",
+      "y": 270
+    },
+    "facing=north,layers=4": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway4"
+    },
+    "facing=east,layers=4": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway4",
+      "y": 90
+    },
+    "facing=south,layers=4": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway4",
+      "y": 180
+    },
+    "facing=west,layers=4": {
+      "model": "buddycards:block/buddycard_booster_box_milkyway4",
+      "y": 270
+    }
+  }
+}

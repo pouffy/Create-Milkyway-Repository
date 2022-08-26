@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "connected=true": {
+      "model": "refinedstorage:block/interface_connected"
+    },
+    "connected=false": {
+      "model": "refinedstorage:block/interface_disconnected"
+    }
+  }
+}

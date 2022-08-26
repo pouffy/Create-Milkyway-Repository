@@ -1,0 +1,64 @@
+{
+  "oreConfig": [
+    {
+      "ore": "powder_and_more_remastered:quine_rock_nickel_ore",
+      "fillers": [],
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": -1.0,
+      "discardChanceOnAirExposure": -1.0,
+      "replace": true
+    },
+    {
+      "ore": "powder_and_more_remastered:deepslate_nickel_ore",
+      "fillers": [],
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": -1.0,
+      "discardChanceOnAirExposure": -1.0,
+      "replace": true
+    },
+    {
+      "ore": "powder_and_more_remastered:nickel_ore",
+      "fillers": [],
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": -1.0,
+      "discardChanceOnAirExposure": -1.0,
+      "replace": true
+    },
+    {
+      "ore": "powder_and_more_remastered:quine_rock_zinc_ore",
+      "fillers": [],
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": -1.0,
+      "discardChanceOnAirExposure": -1.0,
+      "replace": true
+    },
+    {
+      "ore": "powder_and_more_remastered:deepslate_zinc_ore",
+      "fillers": [],
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": -1.0,
+      "discardChanceOnAirExposure": -1.0,
+      "replace": true
+    },
+    {
+      "ore": "powder_and_more_remastered:zinc_ore",
+      "fillers": [],
+      "minY": -1,
+      "maxY": -1,
+      "maxVeinSize": -1,
+      "spawnRate": -1.0,
+      "discardChanceOnAirExposure": -1.0,
+      "replace": true
+    }
+  ]
+}

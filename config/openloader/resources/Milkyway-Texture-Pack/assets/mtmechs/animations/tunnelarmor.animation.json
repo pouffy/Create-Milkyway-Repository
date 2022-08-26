@@ -1,0 +1,348 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tunnelarmor.wheelsforward": {
+			"animation_length": 1,
+			"bones": {
+				"backwheel": {
+					"rotation": {
+						"vector": ["variable.collectspeed % 360", 0, 0]
+					},
+					"scale": {
+						"vector": [1.5, 1, 1]
+					}
+				},
+				"frontwheel": {
+					"rotation": {
+						"vector": ["variable.collectspeed % 360", 0, 0]
+					}
+				},
+				"root": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1": {
+							"vector": [0, "0.1 * variable.moving", 0]
+						},
+						"0.2": {
+							"vector": [0, 0, 0]
+						},
+						"0.3": {
+							"vector": [0, "0.1 * variable.moving", 0]
+						},
+						"0.4": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, "0.1 * variable.moving", 0]
+						},
+						"0.6": {
+							"vector": [0, 0, 0]
+						},
+						"0.7": {
+							"vector": [0, "0.1 * variable.moving", 0]
+						},
+						"0.8": {
+							"vector": [0, 0, 0]
+						},
+						"0.9": {
+							"vector": [0, "0.1 * variable.moving", 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.tunnelarmor.wheelsdefault": {
+			"loop": true,
+			"animation_length": 0.1,
+			"bones": {
+				"backwheel": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1.5, 1, 1]
+					}
+				},
+				"frontwheel": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.tunnelarmor.drills": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"rightdrillrotator": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, -360],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftdrillrotator": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 360]
+						}
+					}
+				}
+			}
+		},
+		"animation.tunnelarmor.lift": {
+			"animation_length": 0.5,
+			"bones": {
+				"leftupperbone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-36, 0, 0],
+							"easing": "linear"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 2, 0]
+						}
+					}
+				},
+				"leftmidnode": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -1, -5],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftlowerbone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-38, 0, 0],
+							"easing": "linear"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 2, -8],
+							"easing": "linear"
+						}
+					}
+				},
+				"leftdrillbase": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 6, -8],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightupperbone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-36, 0, 0],
+							"easing": "linear"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 2, 0]
+						}
+					}
+				},
+				"rightmidnode": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, -1, -5],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightlowerbone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-38, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 2, -8],
+							"easing": "linear"
+						}
+					}
+				},
+				"rightdrillbase": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 6, -8],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.tunnelarmor.liftdefault": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"leftupperbone": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"leftmidnode": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"leftlowerbone": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"leftdrillbase": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rightupperbone": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rightmidnode": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rightlowerbone": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"rightdrillbase": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.tunnelarmor.liftextended": {
+			"loop": true,
+			"bones": {
+				"rightupperbone": {
+					"rotation": {
+						"vector": [-36, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, 0]
+					}
+				},
+				"rightmidnode": {
+					"position": {
+						"vector": [0, -1, -5]
+					}
+				},
+				"rightlowerbone": {
+					"rotation": {
+						"vector": [-38, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, -8]
+					}
+				},
+				"rightdrillbase": {
+					"position": {
+						"vector": [0, 6, -8]
+					}
+				},
+				"leftupperbone": {
+					"rotation": {
+						"vector": [-36, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, 0]
+					}
+				},
+				"leftmidnode": {
+					"position": {
+						"vector": [0, -1, -5]
+					}
+				},
+				"leftlowerbone": {
+					"rotation": {
+						"vector": [-38, 0, 0]
+					},
+					"position": {
+						"vector": [0, 2, -8]
+					}
+				},
+				"leftdrillbase": {
+					"position": {
+						"vector": [0, 6, -8]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

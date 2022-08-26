@@ -1,0 +1,159 @@
+{
+	id: "7835CD6F1A87C63B"
+	group: "4C843E58DB84C35F"
+	order_index: 7
+	filename: "final_stretch"
+	title: "Final Stretch!"
+	icon: "kubejs:creative_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Hear me out..."
+			description: ["Manyullyn can be placen over netherite to make a nice looking casing block."]
+			dependencies: ["63F1FB93450C5B46"]
+			hide: true
+			id: "41159AA4DE6C4AE4"
+			tasks: [{
+				id: "52B2775ECCCEE165"
+				type: "item"
+				item: "kubejs:manyullyn_casing"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["682853630F186405"]
+			id: "485578A1317152CA"
+			tasks: [{
+				id: "54C6040D193B344A"
+				type: "item"
+				item: "kubejs:insulated_plate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: [
+				"41159AA4DE6C4AE4"
+				"485578A1317152CA"
+			]
+			id: "00B1FC4296607A7A"
+			tasks: [{
+				id: "5C0D0CEF87833D01"
+				type: "item"
+				item: "kubejs:insulation_block"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["1F45E40EC42C06A9"]
+			id: "682853630F186405"
+			tasks: [{
+				id: "5EAC309EBE74CB51"
+				type: "item"
+				item: "kubejs:insulated_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["5F203F5F1585080A"]
+			id: "1F45E40EC42C06A9"
+			tasks: [{
+				id: "4CF65752C8A4DD3D"
+				type: "item"
+				item: "kubejs:unprocessed_insulation_cube"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["63F1FB93450C5B46"]
+			hide: true
+			id: "5F203F5F1585080A"
+			tasks: [{
+				id: "23CB35CF926D795C"
+				type: "item"
+				item: "kubejs:crude_insulator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: [
+				"00B1FC4296607A7A"
+				"0BD444B7262674FC"
+			]
+			id: "6D62AEB09ADFBFBB"
+			tasks: [{
+				id: "491FEAE48E0D863E"
+				type: "item"
+				item: "kubejs:creative_casing"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["16A8E4693607745C"]
+			id: "0BD444B7262674FC"
+			tasks: [{
+				id: "490E0FAD8A4E4631"
+				type: "item"
+				item: "kubejs:creative_alloy_plating"
+			}]
+		}
+		{
+			title: "Stressful Grind"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Expensive? YES. Worth it? ABSOLUTELY"
+			dependencies: ["190B5F9DB22D8AE1"]
+			id: "79723A24770BFD5F"
+			tasks: [{
+				id: "6853DEB56822C467"
+				type: "item"
+				item: "kubejs:creativity_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			subtitle: "Melting Mechanisms"
+			description: ["Manyullyn mechanisms melt into molten creativity."]
+			dependencies: ["63F1FB93450C5B46"]
+			hide: true
+			id: "190B5F9DB22D8AE1"
+			tasks: [{
+				id: "7F2E779B6CE66311"
+				type: "item"
+				item: "milkyway_core:molten_creativity_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["6D62AEB09ADFBFBB"]
+			id: "42A3DADA27B4EA93"
+			tasks: [{
+				id: "320810B5081B632B"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["79723A24770BFD5F"]
+			id: "16A8E4693607745C"
+			tasks: [{
+				id: "5EF9F9DC44E5B224"
+				type: "item"
+				item: "kubejs:creative_alloy"
+			}]
+		}
+	]
+}

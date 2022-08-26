@@ -1,0 +1,251 @@
+{
+	id: "2228C19FDF149EF3"
+	group: "4C843E58DB84C35F"
+	order_index: 1
+	filename: "precision_mechanism"
+	title: "Precision Mechanism"
+	icon: "create:precision_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "create:incomplete_precision_mechanism"
+			x: 0.0d
+			y: 2.0d
+			description: ["The precision mechanism is a tricky one. It requires some awkward items such as clocks and gears, both with some tricky crafting recipes. Don't fret as this has some tips for alternative recipes for these annoying requirements."]
+			dependencies: ["2C2F41AE758E38F8"]
+			hide: true
+			id: "11735E8E773291F0"
+			tasks: [{
+				id: "7B6DA532D6DA480C"
+				type: "checkmark"
+				title: "Start"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Fully Automated!"
+			description: ["Congrats again! you now have access to some more advanced machines!"]
+			dependencies: [
+				"48FE88FDD2EF27BB"
+				"76EEEE51736D5AAB"
+				"07F7A7B1D16DE338"
+				"694E70B5A8BE820D"
+			]
+			id: "27CEA9E3769054F1"
+			tasks: [{
+				id: "7D280D09CDCC1B89"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "55C3B6FF3E0A620A"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 16
+				}
+				{
+					id: "5ACD9936FB3C96F3"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 4
+				}
+				{
+					id: "0D995437B8DACAD8"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 18
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["31119AD1200590EC"]
+			id: "694E70B5A8BE820D"
+			tasks: [
+				{
+					id: "3B54D432745D5D17"
+					type: "item"
+					item: "create:golden_sheet"
+				}
+				{
+					id: "77A3C7B2262A3C1B"
+					type: "checkmark"
+					title: "Automated"
+					icon: "create:golden_sheet"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["204470AA6F0927DE"]
+			id: "48FE88FDD2EF27BB"
+			tasks: [{
+				id: "3159FFF79E9F3F52"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["1077BA57B1F23C35"]
+			id: "76EEEE51736D5AAB"
+			tasks: [
+				{
+					id: "3056E4F3EDD28FCC"
+					type: "item"
+					item: "minecraft:clock"
+				}
+				{
+					id: "053C3D28B430F824"
+					type: "checkmark"
+					title: "Automated"
+					icon: "minecraft:clock"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["1077BA57B1F23C35"]
+			id: "07F7A7B1D16DE338"
+			tasks: [
+				{
+					id: "05143317E5ECE38B"
+					type: "item"
+					item: "thermal:gold_gear"
+				}
+				{
+					id: "2CC3E302546F2BBF"
+					type: "checkmark"
+					title: "Automated"
+					icon: "thermal:gold_gear"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Already Automated"
+			description: ["You shouldn't need to worry about this step as much as you should've already automated it for the production of basic mechanisms. You do, however, need to figure out a way to transport some alloy to your precision mechanism production line."]
+			dependencies: ["11735E8E773291F0"]
+			id: "204470AA6F0927DE"
+			tasks: [{
+				id: "69044DD018F346DB"
+				type: "checkmark"
+				title: "Andesite Alloy"
+				icon: "minecraft:andesite"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "You're gonna need a lot of this."
+			description: ["Gold plays a key part in the production of precision mechanisms. And guess what! It can be automated!! just haunt some sand and wash the output for a chance of some gold nuggets! keep the quartz as you can maybe transport it to your basic mechanisms to save on machine usage."]
+			dependencies: ["11735E8E773291F0"]
+			id: "06115F3D4A4D7B87"
+			tasks: [
+				{
+					id: "3458DCE91DB56B8E"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "6320D87642E83948"
+					type: "checkmark"
+					title: "Automated"
+					icon: "minecraft:gold_ingot"
+				}
+			]
+		}
+		{
+			title: "Machines and Components"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["2C2F41AE758E38F8"]
+			hide: true
+			id: "079065177697E676"
+			tasks: [
+				{
+					id: "166AA50C2780939C"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "2E8B7434E6646139"
+					type: "item"
+					item: "tconstruct:seared_table"
+					count: 2L
+				}
+				{
+					id: "77B6A3891685B960"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					count: 2L
+				}
+				{
+					id: "3AC5C00D8D823566"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "421D870C39D52E54"
+					type: "item"
+					item: "tconstruct:gear_cast"
+				}
+			]
+			rewards: [{
+				id: "21FF447F8881FF45"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+				count: 16
+			}]
+		}
+		{
+			icon: "tconstruct:seared_table"
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Best option for automating metal products"
+			description: ["You're probably thinking the clock and gear will be  the most annoying to automate... But never fear! The casting table is here! simply casting 4 ingots worth of molten gold over some redstone will make clocks! and a gear cast is pretty self explanitory."]
+			dependencies: ["06115F3D4A4D7B87"]
+			id: "1077BA57B1F23C35"
+			tasks: [
+				{
+					id: "0E64C69340CC3E34"
+					type: "checkmark"
+					title: "Casting"
+					icon: "tconstruct:seared_table"
+				}
+				{
+					id: "678CEFE4A90DD070"
+					type: "item"
+					item: "tconstruct:gear_cast"
+				}
+				{
+					id: "5855A0569BA372FC"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_press"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "It's Back!"
+			description: ["Once again, the press is the best option for automating metal sheets. especially due to it working on a belt."]
+			dependencies: ["06115F3D4A4D7B87"]
+			id: "31119AD1200590EC"
+			tasks: [{
+				id: "13D09CB4CB767358"
+				type: "checkmark"
+				title: "Mechanical Press"
+			}]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+<recipetype:create:crushing>.addRecipe("iron_dust", [<item:thermal:iron_dust> *3 ] , <item:create:crushed_iron_ore>);
+<recipetype:create:crushing>.addRecipe("copper_dust", [<item:thermal:copper_dust> *3 ] , <item:create:crushed_copper_ore>);
+<recipetype:create:crushing>.addRecipe("zinc_dust", [<item:kubejs:zinc_dust> *3 ] , <item:create:crushed_zinc_ore>);
+<recipetype:create:crushing>.addRecipe("gold_dust", [<item:thermal:gold_dust> *3 ] , <item:create:crushed_gold_ore>);
+<recipetype:create:crushing>.addRecipe("silver_dust", [<item:thermal:silver_dust> *3 ] , <item:create:crushed_silver_ore>);
+<recipetype:create:crushing>.addRecipe("nickel_dust", [<item:thermal:nickel_dust> *3 ] , <item:create:crushed_nickel_ore>);
+<recipetype:create:crushing>.addRecipe("tin_dust", [<item:thermal:tin_dust> *3 ] , <item:create:crushed_tin_ore>);
+<recipetype:create:crushing>.addRecipe("lead_dust", [<item:thermal:lead_dust> *3 ] , <item:create:crushed_lead_ore>);
+<recipetype:create:crushing>.addRecipe("aluminium_dust", [<item:kubejs:aluminium_dust> *3 ] , <item:create:crushed_aluminum_ore>);

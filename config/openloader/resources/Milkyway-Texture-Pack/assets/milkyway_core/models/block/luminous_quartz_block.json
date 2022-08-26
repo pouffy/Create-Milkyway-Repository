@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "milkyway_core:blocks/luminous_quartz_block",
+    "up": "milkyway_core:blocks/luminous_quartz_block",
+    "north": "milkyway_core:blocks/luminous_quartz_block",
+    "east": "milkyway_core:blocks/luminous_quartz_block",
+    "south": "milkyway_core:blocks/luminous_quartz_block",
+    "west": "milkyway_core:blocks/luminous_quartz_block",
+    "particle": "milkyway_core:blocks/luminous_quartz_block"
+  }
+}

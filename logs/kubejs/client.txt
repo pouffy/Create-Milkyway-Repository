@@ -1,0 +1,5 @@
+[15:12:26] [INFO ] Loaded script client_scripts:forge.js in 0.006 s
+[15:12:26] [INFO ] Hello, World! (You will see this line every time client resources reload)
+[15:12:26] [INFO ] Loaded script client_scripts:script.js in 0.001 s
+[15:12:26] [ERR  ] Error loading KubeJS script: missing } after function body (client_scripts:smeltery.js#28)
+[15:12:26] [INFO ] Loaded 2/3 KubeJS client scripts in 0.146 s

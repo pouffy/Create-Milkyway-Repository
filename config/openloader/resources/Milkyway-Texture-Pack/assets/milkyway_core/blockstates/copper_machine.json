@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "milkyway_core:block/copper_machine"
+    },
+    "facing=east": {
+      "model": "milkyway_core:block/copper_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "milkyway_core:block/copper_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "milkyway_core:block/copper_machine",
+      "y": 270
+    }
+  }
+}

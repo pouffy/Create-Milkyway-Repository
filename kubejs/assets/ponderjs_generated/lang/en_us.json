@@ -1,0 +1,12 @@
+{
+  "kubejs.ponder.tag.hephaestus_forge_setup": "Hephaestus Forge",
+  "kubejs.ponder.tag.hephaestus_forge_setup.description": "Setup Guide For Hephaestus Forge",
+  "kubejs.ponder.hephaestus.header": "Hephaestus Forge Setup",
+  "kubejs.ponder.hephaestus.text_1": "Have a Clear Area With This Pattern",
+  "kubejs.ponder.hephaestus.text_2": "Place A Smithing Table",
+  "kubejs.ponder.hephaestus_pedestals.header": "Pedestals",
+  "kubejs.ponder.obelisk_construction.header": "Obelisk Construction",
+  "kubejs.ponder.obelisk_construction.text_1": "Build This Structure",
+  "kubejs.ponder.obelisk_forge.header": "Obelisk Layout",
+  "kubejs.ponder.obelisk_forge.text_1": "The Forge Only Requires Six Pedestals So You Can Replace Spares With Obelisks To Power It Passively"
+}

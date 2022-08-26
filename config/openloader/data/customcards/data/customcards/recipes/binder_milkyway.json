@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "buddycards:buddycards_milkyway"
+    },
+    {
+      "tag": "buddycards:buddycards_milkyway"
+    },
+    {
+      "tag": "buddycards:buddycards_milkyway"
+    }
+  ],
+  "result": {
+    "item": "buddycards:buddycard_binder_milkyway"
+  }
+}

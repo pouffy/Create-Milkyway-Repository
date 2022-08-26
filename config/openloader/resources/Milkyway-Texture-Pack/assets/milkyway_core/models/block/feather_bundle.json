@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "milkyway_core:blocks/crafting_table_top",
+    "up": "milkyway_core:blocks/crafting_table_top",
+    "north": "milkyway_core:blocks/crafting_table_front",
+    "east": "milkyway_core:blocks/crafting_table_side",
+    "south": "milkyway_core:blocks/crafting_table_side",
+    "west": "milkyway_core:blocks/crafting_table_side",
+    "particle": "milkyway_core:blocks/crafting_table_top"
+  }
+}

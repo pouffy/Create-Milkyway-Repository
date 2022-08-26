@@ -1,0 +1,1124 @@
+{
+	id: "55703423A0BA7122"
+	group: ""
+	order_index: 0
+	filename: "create_milkyway"
+	title: "Create: Milkyway"
+	icon: "milkyway_bosses:milk_carton"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "milkyway_bosses:milky_way"
+			x: -4.375d
+			y: 0.0d
+			size: 1.75d
+			id: "2047386A53C94535"
+			tasks: [{
+				id: "627ACA15FD5E0649"
+				type: "checkmark"
+				title: "Ready To Start"
+			}]
+			rewards: [
+				{
+					id: "2465E065336F1C03"
+					type: "item"
+					item: "create_factory:honey_roll"
+					count: 16
+				}
+				{
+					id: "3ED3F05D26909253"
+					type: "item"
+					item: "create:builders_tea"
+				}
+			]
+		}
+		{
+			icon: "milkyway_core:basic_mechanism"
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["2047386A53C94535"]
+			id: "78562C4AFB584F74"
+			tasks: [{
+				id: "77E8F60251F4BC6A"
+				type: "checkmark"
+				title: "Basic Mechanism"
+			}]
+		}
+		{
+			title: "Basic Machinery"
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["78562C4AFB584F74"]
+			id: "46A07ED3D850D1E6"
+			tasks: [
+				{
+					id: "54C4855EE6F7BFEE"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "3910DBEB45CD6DD6"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "673EC3ACF5C38822"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+				{
+					id: "116DAA500BF2D96B"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "0E081CC98DEA4D03"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+				{
+					id: "53B0DDD85B3A1C73"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "3B6CE09A748AE37D"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "4D0C0D011410B0C7"
+					type: "item"
+					item: "create:millstone"
+				}
+			]
+			rewards: [
+				{
+					id: "469C42C00B85A165"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 4
+				}
+				{
+					id: "5022CEE80469ABB5"
+					type: "item"
+					item: "milkyway_core:basic_mechanism"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "createdeco:orange_decal"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Important!"
+			description: ["You may notice, your normal furnace doesn't seem to melt down ores like it used to. Well this is because almost all metals now require the use of the smeltery! Don't worry about building the large smeltery though as a small seared melter works well early game"]
+			dependencies: ["2047386A53C94535"]
+			id: "48FEA8F1E15126E6"
+			tasks: [{
+				id: "27977FFDEB9078C7"
+				type: "checkmark"
+				title: "Important Note!"
+			}]
+		}
+		{
+			icon: "milkyway_core:copper_mechanism"
+			x: -2.0d
+			y: 1.0d
+			dependencies: [
+				"78562C4AFB584F74"
+				"77DF95CD62E57A6C"
+			]
+			id: "796D39F5C3616255"
+			tasks: [{
+				id: "3EA02576D7150C63"
+				type: "checkmark"
+				title: "Copper Mechanism"
+			}]
+		}
+		{
+			title: "Copper Machines"
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["796D39F5C3616255"]
+			id: "3DE0A8670C49CD7A"
+			tasks: [
+				{
+					id: "6014D6AF55F466C7"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "74597D0A46B925E0"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+				{
+					id: "1B1B95B3F7E27991"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "07762839528CD700"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "0B87E58B329B1175"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "005AADEF83B1266F"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "244C9B5E32D41A4D"
+					type: "item"
+					item: "create:item_drain"
+				}
+			]
+			rewards: [
+				{
+					id: "771B32EF27474002"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 4
+				}
+				{
+					id: "534F19B30265335E"
+					type: "item"
+					item: "milkyway_core:copper_mechanism"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "create:precision_mechanism"
+			x: 1.0d
+			y: 0.0d
+			dependencies: [
+				"78562C4AFB584F74"
+				"77DF95CD62E57A6C"
+			]
+			id: "2C2F41AE758E38F8"
+			tasks: [{
+				id: "0BAE564D513C78C3"
+				type: "checkmark"
+				title: "Precision Mechanism"
+			}]
+		}
+		{
+			icon: "milkyway_core:seared_mechanism"
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"2C2F41AE758E38F8"
+				"27CEA9E3769054F1"
+			]
+			id: "542FACEDCBC70D47"
+			tasks: [{
+				id: "4441F556A7B628F1"
+				type: "checkmark"
+				title: "Seared Mechanism"
+			}]
+		}
+		{
+			title: "Precision Machinery"
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["2C2F41AE758E38F8"]
+			id: "29A3E6D45CF19004"
+			tasks: [
+				{
+					id: "6303CA49E89641BF"
+					type: "item"
+					item: "create:rotation_speed_controller"
+				}
+				{
+					id: "085AAB9EC5BAA74C"
+					type: "item"
+					item: "create:mechanical_crafter"
+				}
+				{
+					id: "3099B495DECB561A"
+					type: "item"
+					item: "create:mechanical_arm"
+				}
+				{
+					id: "4EF2B4FE547AC084"
+					type: "item"
+					item: "create:track_station"
+				}
+				{
+					id: "295F9BA8BFC59DF2"
+					type: "item"
+					item: "create:track_signal"
+				}
+				{
+					id: "627E1DD12F9F63EE"
+					type: "item"
+					item: "create:track_observer"
+				}
+				{
+					id: "4D07B7CD690E8089"
+					type: "item"
+					item: "create:controls"
+				}
+				{
+					id: "6C56C9DE87B482FF"
+					type: "item"
+					item: "create_stuff_additions:nozzle_fan"
+				}
+				{
+					id: "0FAD722A196CC4C4"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "13D9F0EAA72AF911"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "1155D9973450C541"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+			rewards: [
+				{
+					id: "4E63440A4237480F"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 8
+				}
+				{
+					id: "3E1D1A637B337929"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Precision Utilities"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "Some Very Useful Utility Items"
+			description: ["Precision Mechanisms aren't just for machine blocks you know, they can be used for a number of utility items from jetpacks to potato launchers! Crazy right?"]
+			dependencies: ["2C2F41AE758E38F8"]
+			id: "43C5C4AAD9B1D924"
+			tasks: [
+				{
+					id: "012040E446794A21"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:exoskeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F293CF0D6C0CDF8"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:brass_accelerator_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "609DC4F00950EFB2"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:encased_jet_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "443D6D8223B9E8CF"
+					type: "item"
+					item: "create_stuff_additions:brass_moped_item"
+				}
+				{
+					id: "17A0731E36C7E90F"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:andesite_encased_jet_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68B4C48DAA87AFDF"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:andesite_accelerator_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43131A15D05D3540"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:andesite_exoskeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CB6DFD02A4C1295"
+					type: "item"
+					item: "create:wand_of_symmetry"
+				}
+				{
+					id: "6733AD3BBF651A0A"
+					type: "item"
+					item: {
+						id: "create:extendo_grip"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C9E0C07B583B372"
+					type: "item"
+					item: {
+						id: "create:potato_cannon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5703A2141F12C27C"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:copper_exoskeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E77820EB6980592"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:copper_accelerator_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FBF50B7FEAD3E2F"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:grapplin_whisk"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2519351EBC26A722"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 8
+				}
+				{
+					id: "69A1F6777D88C753"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "kubejs:tech_tube"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["542FACEDCBC70D47"]
+			id: "3A15EDBCE7767026"
+			tasks: [{
+				id: "2A6CF2EAA20E923D"
+				type: "checkmark"
+				title: "Tech Tube"
+			}]
+		}
+		{
+			icon: "milkyway_core:scorched_mechanism"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["542FACEDCBC70D47"]
+			id: "7D6C6F65C6BEC24F"
+			tasks: [{
+				id: "0E2331C883A01423"
+				type: "checkmark"
+				title: "Scorched Mechanism"
+			}]
+		}
+		{
+			title: "Seared Machinery"
+			x: 3.0d
+			y: -2.5d
+			subtitle: "Incredibly useful for melting!"
+			description: ["To get a functional smeltery you'll need to spend some of your new mechanisms on parts. Drains, Ducts and Chutes will be needed for the transport and casting of your molten minerals."]
+			dependencies: ["542FACEDCBC70D47"]
+			id: "0A4D5AAA76640868"
+			tasks: [
+				{
+					id: "4A99116E72499EAA"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "18DA6C626F4F0DF8"
+					type: "item"
+					item: "tconstruct:seared_duct"
+				}
+				{
+					id: "2BD080D0BB3BF85F"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+				{
+					id: "7CB24A0A2D17ED51"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+			]
+			rewards: [
+				{
+					id: "1C4D8A9E0A56AEC0"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 4
+				}
+				{
+					id: "667A6F44EEC37B18"
+					type: "item"
+					item: "milkyway_core:seared_mechanism"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Scorched Machinery"
+			x: 3.0d
+			y: 2.5d
+			subtitle: "Good for extra outputs"
+			description: ["The foundry can melt ores in to themselves, but it also grants some spare mineral that was found withing the ore too! very good if you are melting down ores and need other minerals you couldn't find."]
+			dependencies: ["7D6C6F65C6BEC24F"]
+			id: "42C7FAD4A35FF19D"
+			tasks: [
+				{
+					id: "026A2E5682E24A52"
+					type: "item"
+					item: "tconstruct:scorched_duct"
+				}
+				{
+					id: "22705D95FE52F2A5"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "36D9AA5C6E12D865"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+				{
+					id: "034D54D2E4512F92"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "4022E86101EB04C1"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 4
+				}
+				{
+					id: "1F1164F18D9138F2"
+					type: "item"
+					item: "milkyway_core:scorched_mechanism"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Tech Machinery"
+			x: 5.0d
+			y: -3.0d
+			dependencies: [
+				"3A15EDBCE7767026"
+				"07E968A74C8AAFA9"
+				"51AF345C1887F54B"
+			]
+			hide: false
+			id: "36A3DD15034DED9D"
+			tasks: [
+				{
+					id: "7C41590A1BC788AB"
+					type: "item"
+					item: "thermal:machine_furnace"
+				}
+				{
+					id: "5F37431C2684624A"
+					type: "item"
+					item: "thermal:machine_sawmill"
+				}
+				{
+					id: "419C06F7ECDA9037"
+					type: "item"
+					item: "thermal:machine_pyrolyzer"
+				}
+				{
+					id: "7599B6018F7BEF67"
+					type: "item"
+					item: "thermal:machine_centrifuge"
+				}
+				{
+					id: "27B0F6DE30F1D56C"
+					type: "item"
+					item: "thermal:machine_insolator"
+				}
+				{
+					id: "41A21DF018212329"
+					type: "item"
+					item: "thermal:machine_smelter"
+				}
+				{
+					id: "0E53BE0395467DE9"
+					type: "item"
+					item: "thermal:machine_pulverizer"
+				}
+				{
+					id: "5AF2E0DA272DBA26"
+					type: "item"
+					item: "thermal:machine_refinery"
+				}
+				{
+					id: "4627A491389A0808"
+					type: "item"
+					item: "thermal:machine_chiller"
+				}
+				{
+					id: "506192E868D90F45"
+					type: "item"
+					item: "thermal:machine_crucible"
+				}
+				{
+					id: "409CE88307D28401"
+					type: "item"
+					item: "thermal:machine_press"
+				}
+				{
+					id: "4ACDFF81B657BA3B"
+					type: "item"
+					item: "thermal:machine_brewer"
+				}
+				{
+					id: "03A40D53BD6E582A"
+					type: "item"
+					item: "thermal:machine_crafter"
+				}
+				{
+					id: "7E4D139D06E05BC8"
+					type: "item"
+					item: "thermal:machine_bottler"
+				}
+			]
+			rewards: [
+				{
+					id: "5BD87B56953CE6A6"
+					type: "item"
+					item: "kubejs:tech_tube"
+					count: 4
+				}
+				{
+					id: "5865A211217EE424"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 12
+				}
+				{
+					id: "087781761CF2ECBB"
+					type: "item"
+					item: "thermal:invar_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "thermal:rf_coil"
+			x: 5.0d
+			y: -1.5d
+			subtitle: "It Takes Two"
+			description: ["Surely you didn't hink these advanced machines would be that easy! Of course not. You have to automate Redstone Flux Coils first you dummy!"]
+			dependencies: ["06F55FB6C31ECE81"]
+			hide: true
+			id: "07E968A74C8AAFA9"
+			tasks: [{
+				id: "505DA0DFC1430D98"
+				type: "checkmark"
+				title: "Redstone Flux Coil"
+			}]
+		}
+		{
+			title: "Runes and Tablets"
+			icon: "kubejs:blank_tablet"
+			x: 8.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2047386A53C94535"]
+			id: "34F5720728D256F7"
+			tasks: [{
+				id: "648C2485B1DD098D"
+				type: "checkmark"
+				title: "Arcane Tablet"
+			}]
+		}
+		{
+			icon: "milkyway_core:manyullyn_mechanism"
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["2C9E9C4FD5ED0AF8"]
+			id: "1E13490E8009CEFB"
+			tasks: [{
+				id: "17009C3BB644EFA3"
+				type: "checkmark"
+				title: "Manyullyn Mechanism"
+			}]
+		}
+		{
+			icon: "milkyway_core:cobalt_mechanism"
+			x: 7.0d
+			y: 0.0d
+			dependencies: [
+				"3A15EDBCE7767026"
+				"06F55FB6C31ECE81"
+			]
+			id: "1C1909479EE540BF"
+			tasks: [{
+				id: "0C25C5C052271326"
+				type: "checkmark"
+				title: "Cobalt Mechanism"
+			}]
+		}
+		{
+			icon: "milkyway_core:logic_mechanism"
+			x: 9.0d
+			y: 0.0d
+			dependencies: [
+				"7E92C100774BE32B"
+				"1C1909479EE540BF"
+			]
+			id: "2C9E9C4FD5ED0AF8"
+			tasks: [{
+				id: "26176B6B4403A75B"
+				type: "checkmark"
+				title: "Logic Mechanism"
+			}]
+		}
+		{
+			icon: "kubejs:creative_casing"
+			x: 13.0d
+			y: 0.0d
+			dependencies: [
+				"1E13490E8009CEFB"
+				"0C013A4F3E7FD1C5"
+			]
+			id: "63F1FB93450C5B46"
+			tasks: [{
+				id: "48B35F3E0D199A63"
+				type: "checkmark"
+				title: "Final Stretch!"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			dependencies: [
+				"42A3DADA27B4EA93"
+				"63F1FB93450C5B46"
+			]
+			size: 1.75d
+			id: "006F64D36823BA31"
+			tasks: [{
+				id: "1DFF81B90AD89263"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [
+				{
+					id: "3046AD0AA529B063"
+					type: "item"
+					item: "milkyway_bosses:milky_way"
+				}
+				{
+					id: "650E0771CB8EE63C"
+					type: "item"
+					item: "randomium:randomium_ore_deepslate"
+					count: 4
+				}
+				{
+					id: "750B512B6C445F61"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Refined Storage"
+			x: 8.5d
+			y: 2.5d
+			dependencies: [
+				"2C9E9C4FD5ED0AF8"
+				"3BD7476328892125"
+				"626DD8C1E54B02F3"
+			]
+			id: "4A79B5E0951E3ED4"
+			tasks: [
+				{
+					id: "0A6C12C672307819"
+					type: "item"
+					title: "Grid"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:grid"
+						}
+					}
+				}
+				{
+					id: "1A551E8FBB19B64C"
+					type: "item"
+					title: "Crafting Grid"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:crafting_grid"
+						}
+					}
+				}
+				{
+					id: "5404FB0E20A72858"
+					type: "item"
+					title: "Pattern Grid"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:pattern_grid"
+						}
+					}
+				}
+				{
+					id: "7880B911906E0C8F"
+					type: "item"
+					title: "Fluid Grid"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:fluid_grid"
+						}
+					}
+				}
+				{
+					id: "4C07F03FEA787130"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+				{
+					id: "07CD9A3BB3468F89"
+					type: "item"
+					title: "Controller"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:controller"
+						}
+					}
+				}
+				{
+					id: "24DFD0D757B97949"
+					type: "item"
+					title: "Disk Manipulator"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:disk_manipulator"
+						}
+					}
+				}
+				{
+					id: "69B89A7B288CB1A6"
+					type: "item"
+					title: "Crafter"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:crafter"
+						}
+					}
+				}
+				{
+					id: "5D4CC68E82C766DE"
+					type: "item"
+					item: "refinedstorage:1k_storage_block"
+				}
+				{
+					id: "7661520855FF33AF"
+					type: "item"
+					item: "refinedstorage:4k_storage_block"
+				}
+				{
+					id: "6136651010112815"
+					type: "item"
+					item: "refinedstorage:16k_storage_block"
+				}
+				{
+					id: "489720D6EB6A1A2E"
+					type: "item"
+					item: "refinedstorage:64k_storage_block"
+				}
+				{
+					id: "25E95744EF92F942"
+					type: "item"
+					item: "refinedstorage:64k_fluid_storage_block"
+				}
+				{
+					id: "0110142612CA05EB"
+					type: "item"
+					item: "refinedstorage:256k_fluid_storage_block"
+				}
+				{
+					id: "796F4C6ACCE65D53"
+					type: "item"
+					item: "refinedstorage:1024k_fluid_storage_block"
+				}
+				{
+					id: "3696F319EB116725"
+					type: "item"
+					item: "refinedstorage:4096k_fluid_storage_block"
+				}
+				{
+					id: "2DD94EE688717356"
+					type: "item"
+					item: "refinedstorage:interface"
+				}
+				{
+					id: "3D2285C3C6A88623"
+					type: "item"
+					item: "refinedstorage:storage_monitor"
+				}
+				{
+					id: "2B19EFBAAED8CEFB"
+					type: "item"
+					item: "refinedstorage:fluid_interface"
+				}
+				{
+					id: "083E7A49DC0897EB"
+					type: "item"
+					title: "Network Transmitter"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:network_transmitter"
+						}
+					}
+				}
+				{
+					id: "08D2E22BFEA18A68"
+					type: "item"
+					title: "Network Receiver"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:network_receiver"
+						}
+					}
+				}
+				{
+					id: "10452BB8D3A2CFDF"
+					type: "item"
+					title: "Security Manager"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:security_manager"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "17C0137D9B255534"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron_block"
+					count: 2
+				}
+				{
+					id: "5D539AD888EDE4D3"
+					type: "item"
+					item: "milkyway_core:logic_mechanism"
+					count: 8
+				}
+				{
+					id: "566BD4E3C2B4F3DE"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+					count: 4
+				}
+				{
+					id: "78202B4495CA8E15"
+					type: "item"
+					item: "refinedstorage:1k_storage_part"
+					count: 2
+				}
+				{
+					id: "7C58FA504635D58B"
+					type: "item"
+					item: "refinedstorage:64k_fluid_storage_part"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: [
+				"7E92C100774BE32B"
+				"1C1909479EE540BF"
+			]
+			id: "4FE88B0CBC137A90"
+			tasks: [{
+				id: "316FA991A7A2BABD"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+		}
+		{
+			title: "Cobalt Machinery"
+			x: 6.0d
+			y: 3.0d
+			description: ["Coablt machinery is more advanced and magical."]
+			dependencies: [
+				"4FE88B0CBC137A90"
+				"693E770130F1C0E3"
+			]
+			id: "79FBEC710A0A1849"
+			tasks: [
+				{
+					id: "125057703489C5A7"
+					type: "item"
+					item: "thermal:device_rock_gen"
+				}
+				{
+					id: "715F252EFB988EBB"
+					type: "item"
+					item: "thermal:device_collector"
+				}
+				{
+					id: "29865E67E958B9D3"
+					type: "item"
+					item: "thermal:device_nullifier"
+				}
+				{
+					id: "0EF7618D6E197F5B"
+					type: "item"
+					item: "thermal:device_composter"
+				}
+				{
+					id: "19EDB9EA3802AA24"
+					type: "item"
+					item: "thermal:device_fisher"
+				}
+				{
+					id: "18C26FEEC7BB2649"
+					type: "item"
+					item: "thermal:device_water_gen"
+				}
+				{
+					id: "42AD12D19D9822CF"
+					type: "item"
+					item: "thermal:device_potion_diffuser"
+				}
+				{
+					id: "07CBA033E9A64FE8"
+					type: "item"
+					item: {
+						id: "thermal:fluid_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								TankInv: [{
+									FluidName: "minecraft:empty"
+									Capacity: 32000
+									Tank: 0b
+									Amount: 0
+								}]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "11E14256FC960D8A"
+					type: "item"
+					item: "milkyway_core:cobalt_mechanism"
+					count: 4
+				}
+				{
+					id: "127B4AA144D96C50"
+					type: "item"
+					item: "create_stuff_additions:heap_of_experience"
+					count: 8
+				}
+			]
+		}
+	]
+}
